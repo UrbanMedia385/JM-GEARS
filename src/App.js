@@ -19,9 +19,10 @@ import ContactPage from './pages/ContactPage';
 import MoveToAustralia from './pages/CementPlantPage';
 import CementCompletePlant from './pages/CementCompletePlant';
 import CementGrindingUnit from './pages/CementGrindingUnit';
-import ChiragFile from './pages/ChiragFile';
 import FeaturesOne from './Components/Features/FeaturesOne';
 import ReadyPlants from './pages/ReadyPlants';
+import Rotary from './pages/Rotary';
+import HorizontalGrinding, { HorizontalGrindingMills } from './pages/HorizontalGrindingMills';
 
 
 function App() {
@@ -53,10 +54,9 @@ function App() {
         <Route path="/projects" element={<ProjectPage />} />
         <Route path="/cementCompletePlant" element={<CementCompletePlant />} />
         <Route path="/cementGrindingUnit" element={<CementGrindingUnit />} />
-        <Route path="/chirag" element={<ChiragFile />} />
+        <Route path="/rotary" element={<Rotary />} />
+        <Route path="/horizontal-grinding-mills" element={<HorizontalGrinding />} />
         <Route path="/ready-plants" element={<ReadyPlants />} />
-        <Route path="/home1" element={<HomeFour />} />
-        <Route path="/home2" element={<HomeTwo />} />
 
       </Routes>
     </>

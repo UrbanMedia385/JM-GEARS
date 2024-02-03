@@ -10,32 +10,14 @@ import ProductsThreeData from '../Components/Services/servicesThreeData';
 import { EnquiryForm } from './EnquiryForm';
 import MoveToAustralia from './CementPlantPage';
 import GrindingUnit from './GrindingUnit';
+import RotaryPage from './RotaryPage';
 
-const ServiceDetails = () => {
-  const [ID, setExtractedId] = useState(0)
-  const { id } = useParams();
-
-  // Extract the value of 'id' from the URL parameter
-  const extractedId = id.split('=')[1]; // Get the value after '='
-      // Find the object with the matching id
-      const selectedProduct = ProductsThreeData.find((product) => product.id === Number(extractedId));
-
-      if (selectedProduct) {
-        // Extract the required information
-        const { img, title, desc } = selectedProduct;
-
-        // Use the img, title, and desc as needed
-        console.log(img, title, desc);
-      } else {
-        console.log('No product found with the provided ID');
-      }
+const Rotary = () => {
 
   return (
     <>
         <HeaderThree/>
-        {extractedId ===1?
-        <MoveToAustralia />:
-        <GrindingUnit />}
+        <RotaryPage />
         {/* <PageBanner title={selectedProduct.title} bannerBg={bannerBg} currentPage={selectedProduct.title} />
         <EnquiryForm  />
         <Details selectedProduct={selectedProduct} />
@@ -45,4 +27,4 @@ const ServiceDetails = () => {
   )
 }
 
-export default ServiceDetails;
+export default Rotary;

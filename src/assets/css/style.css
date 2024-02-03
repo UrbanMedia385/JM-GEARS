@@ -11292,3 +11292,7 @@ display: none;}
 .only-for-mobile{
   display: none;
 }}
+li.disabled {
+  opacity: 0.5; /* or any other styling to indicate it's disabled */
+  pointer-events: none; /* Disable click events */
+}

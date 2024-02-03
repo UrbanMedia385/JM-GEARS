@@ -96,7 +96,13 @@ const HeaderThree = () => {
                     <ul>
                     <li><Link to="/">Home</Link></li>
                         <li><Link to="/about">about us</Link></li>
-      <li onClick={handleClick}><Link to="#">Products</Link></li>
+                        <li><a href="#">Products <i className="fal fa-plus"></i></a>
+                            <ul className="sub-menu">
+                                <li><Link to="/rotary">Rotary</Link></li>
+                                <li><Link to="/horizontal-grinding-mills">Horizontal Grinding Mills</Link></li>
+                                <li><Link to="/pricing">Cement Plant Spare Parts</Link></li>
+                            </ul>
+                        </li>
       <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleClose}>
         {categories.map((category) => (
           <SubMenu
@@ -107,13 +113,14 @@ const HeaderThree = () => {
         ))}
       </Menu>
                         <li><Link to="/ready-plants">Ready Plants</Link></li>
-                        <li><a href="#">Cement Plants <i className="fal fa-plus"></i></a>
-                            <ul className="sub-menu">
-                                <li><Link to="/cementCompletePlant">Cement Complete Integrated Unit</Link></li>
-                                <li><Link to="/cementGrindingUnit">Cement Grinding Unit</Link></li>
-                                <li><Link to="/pricing">Cement Plant Spare Parts</Link></li>
-                                <li><Link to="/pricing">Cement Part Estimates</Link></li>
-                            </ul>
+                        <li className="disabled">
+                          <a href="#">Cement Plants <i className="fal fa-plus"></i></a>
+                          <ul className="sub-menu">
+                            <li><Link to="/cementCompletePlant">Cement Complete Integrated Unit</Link></li>
+                            <li><Link to="/cementGrindingUnit">Cement Grinding Unit</Link></li>
+                            <li><Link to="/pricing">Cement Plant Spare Parts</Link></li>
+                            <li><Link to="/pricing">Cement Part Estimates</Link></li>
+                          </ul>
                         </li>
                         <li><Link to="/news">News</Link></li>
                        
