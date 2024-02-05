@@ -8,6 +8,7 @@ import { useSearchParams } from "react-router-dom";
 import { EnquiryForm } from "./EnquiryForm";
 import { RotaryDryer } from "../Constants/RotaryDryer";
 import { RotaryKlin } from "../Constants/RotaryKlin";
+import { RodMill } from "../Constants/RODMill";
 
 export const RotaryPage = () => {
   let [searchParams, setSearchParams] = useSearchParams();
@@ -16,10 +17,11 @@ export const RotaryPage = () => {
   const AboutUsEnums = {
     ROTARYKILN : <RotaryKlin />,
     ROTARYDRYERS : <RotaryDryer />
+
   };
   const bannerArray = {
     ROTARYKILN: business,
-    ROTARYDRYERS: rotaryKlin 
+    ROTARYDRYERS: rotaryKlin,
   };
 const HandleMenuChange = (main) => {
   setMenu(main)
@@ -28,7 +30,6 @@ const HandleMenuChange = (main) => {
 const HandleSubMenuChange = (main,sub) => {
   setMenu(main)
   setSubMenu(sub)
-
 }
   return (
     <div className="move-to-australia">
@@ -47,114 +48,16 @@ const HandleSubMenuChange = (main,sub) => {
                   }`}
                   onClick={() => HandleMenuChange("ROTARYKILN")}
                 >
-                  ROTARY KILN{" "}
+                  Rotary Kiln{" "}
                   {/* <span className="material-symbols-outlined">expand_more</span> */}
                 </li>
-                <ul  style={{marginLeft:"7px"}}>
-                {selectedList === "Crusher" || selectedSubList === "HammerCushers"?
-                <li
-                  className={`${
-                    selectedSubList === "HammerCushers" ? "active" : " "
-                  }`}
-                  onClick={() => HandleSubMenuChange("Crusher","HammerCushers")}
-                >
-                  {"Hammer Cushers "}{" "}
-                  {/* <span className="material-symbols-outlined">expand_more</span> */}
-                </li>:
-                ""
-              }
-               {selectedList === "Crusher" || selectedSubList === "ImpactCrusher"?
-                <li
-                  className={`${
-                    selectedSubList === "Impact Crusher" ? "active" : " "
-                  }`}
-                  onClick={() => HandleSubMenuChange("Crusher","ImpactCrusher")}
-                >
-                  {"Impact Crusher"}{" "}
-                  {/* <span className="material-symbols-outlined">expand_more</span> */}
-                </li>:
-                ""
-              }
-               {selectedList === "Crusher" || selectedSubList === "ConeCrusher"?
-                <li
-                  className={`${
-                    selectedSubList === "ConeCrusher" ? "active" : " "
-                  }`}
-                  onClick={() => HandleSubMenuChange("Crusher","ConeCrusher")}
-                >
-                  {"Cone Crusher "}{" "}
-                  {/* <span className="material-symbols-outlined">expand_more</span> */}
-                </li>:
-                ""
-              }
-              {selectedList === "Crusher" || selectedSubList === "JawCruhser"?
-                <li
-                  className={`${
-                    selectedSubList === "JawCruhser" ? "active" : " "
-                  }`}
-                  onClick={() => HandleSubMenuChange("Crusher","JawCruhser")}
-                >
-                  {"Jaw Cruhser"}{" "}
-                  {/* {/* <span className="material-symbols-outlined">expand_more</span> */} 
-                </li>:
-                ""
-              }
-               {selectedList === "Crusher" || selectedSubList === "RollCruhser"?
-                <li
-                  className={`${
-                    selectedSubList === "RollCruhser" ? "active" : " "
-                  }`}
-                  onClick={() => HandleSubMenuChange("Crusher","RollCruhser")}
-                >
-                  {"Roll Cruhser"}{" "}
-                  {/* <span className="material-symbols-outlined">expand_more</span> */}
-                </li>:
-                ""
-              }
-               {selectedList === "Crusher" || selectedSubList === "WobblerFeeders"?
-                <li
-                  className={`${
-                    selectedSubList === "WobblerFeeders" ? "active" : " "
-                  }`}
-                  onClick={() => HandleSubMenuChange("Crusher","WobblerFeeders")}
-                >
-                  {"Wobbler Feeders"}{" "}
-                  {/* <span className="material-symbols-outlined">expand_more</span> */}
-                </li>:
-                ""
-              }
-              {selectedList === "Crusher" || selectedSubList === "Screenings"?
-                <li
-                  className={`${
-                    selectedSubList === "Screenings" ? "active" : " "
-                  }`}
-                  onClick={() => HandleSubMenuChange("Crusher","Screenings")}
-                >
-                  {"Screenings"}{" "}
-                  {/* <span className="material-symbols-outlined">expand_more</span> */}
-                </li>:
-                ""
-              }
-               {selectedList === "Crusher" || selectedSubList === "BeltConveyor"?
-                <li
-                  className={`${
-                    selectedSubList === "BeltConveyor" ? "active" : " "
-                  }`}
-                  onClick={() => HandleSubMenuChange("Crusher","BeltConveyor")}
-                >
-                  {"Belt Conveyor"}{" "}
-                  {/* <span className="material-symbols-outlined">expand_more</span> */}
-                </li>:
-                ""
-              }
-              </ul>
                 <li
                   className={`${
                     selectedList === "ROTARYDRYERS" ? "active" : " "
                   }`}
                   onClick={() => HandleMenuChange("ROTARYDRYERS")}
                 >
-                 ROTARY DRYERS {" "}
+                 Rotary Dryers {" "}
                   {/* <span className="material-symbols-outlined">expand_more</span> */}
                 </li>
                 

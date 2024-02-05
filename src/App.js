@@ -57,7 +57,6 @@ function App() {
         <Route path="/rotary" element={<Rotary />} />
         <Route path="/horizontal-grinding-mills" element={<HorizontalGrinding />} />
         <Route path="/ready-plants" element={<ReadyPlants />} />
-
       </Routes>
     </>
     )
