@@ -1,4 +1,3 @@
-import bgi from '../assets/img/BannerImages/Business.jpg'
 export const RotaryKlin = () => (
   <>
     <h3>ROTARY KILN </h3>

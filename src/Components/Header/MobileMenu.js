@@ -11,13 +11,20 @@ const MobileMenu = ({mobileMenu, handleMobileMenu}) => {
             <ul className="metismenu" id="mobile-menu">
             <li><Link to="/">Home</Link></li>
                         <li><Link to="/about">about us</Link></li>
-                        <li><Link to="/products">products</Link></li>
+                        <li><a href="#">Products <i className="fal fa-plus"></i></a>
+                            <ul className="sub-menu">
+                                <li><Link to="/rotary">Rotary</Link></li>
+                                <li><Link to="/horizontal-grinding-mills">Horizontal Grinding Mills</Link></li>
+                                <li><Link to="/cement-spares">Cement Plant Spare Parts</Link></li>
+                                <li><Link to="/crushers">Crushers</Link></li>
+                            </ul>
+                        </li>
                         <li><Link to="/ready-plants">Ready Plants</Link></li>
-                        <li><a href="#">Cement Plants <i className="fal fa-plus"></i></a>
+                        <li className="disabled"><a href="#">Cement Plants <i className="fal fa-plus"></i></a>
                             <ul className="sub-menu">
                                 <li><Link to="/cementCompletePlant">Cement Complete Integrated Unit</Link></li>
                                 <li><Link to="/cementGrindingUnit">Cement Grinding Unit</Link></li>
-                                <li><Link to="/pricing">Cement Plant Spare Parts</Link></li>
+                                {/* <li><Link to="/pricing">Cement Plant Spare Parts</Link></li> */}
                                 <li><Link to="/pricing">Cement Part Estimates</Link></li>
                             </ul>
                         </li>

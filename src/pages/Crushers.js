@@ -11,8 +11,9 @@ import { EnquiryForm } from './EnquiryForm';
 import MoveToAustralia from './CementPlantPage';
 import GrindingUnit from './GrindingUnit';
 import CementPlantsSpares from './CementPlantSpares';
+import { CrushersPage } from './CrushersPage';
 
-const CementSpares = () => {
+const Crushers = () => {
 
   return (
     <>
@@ -21,10 +22,10 @@ const CementSpares = () => {
         <EnquiryForm  />
         <Details selectedProduct={selectedProduct} />
         <FooterForm/> */}
-        <CementPlantsSpares  />
+        <CrushersPage />
         <FooterThree/>
     </>
   )
 }
 
-export default CementSpares;
+export default Crushers;

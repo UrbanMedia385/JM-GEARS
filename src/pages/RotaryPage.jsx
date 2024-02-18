@@ -1,14 +1,12 @@
 import React, {  useEffect } from "react";
 
 import "../assets/css/moveToAustralia.scss";
-import { Business } from "../Constants/Business";
 import business from "../assets/img/BannerImages/Business.jpg";
 import rotaryKlin from "../assets/img/BannerImages//Rotary.jpg";
 import { useSearchParams } from "react-router-dom";
 import { EnquiryForm } from "./EnquiryForm";
-import { RotaryDryer } from "../Constants/RotaryDryer";
-import { RotaryKlin } from "../Constants/RotaryKlin";
-import { RodMill } from "../Constants/RODMill";
+import { RotaryDryer } from "../Constants/Rotary/RotaryDryer";
+import { RotaryKlin } from "../Constants/Rotary/RotaryKlin";
 
 export const RotaryPage = () => {
   let [searchParams, setSearchParams] = useSearchParams();
@@ -36,7 +34,7 @@ const HandleSubMenuChange = (main,sub) => {
       <div className="cover-section">
         <div className="container">
           <h2></h2>
-          <EnquiryForm />
+          <EnquiryForm data='ROTARY'/>
           <div className="breadCrumbSection mt-20">Home &gt; Rotary</div>
           <div className="AboutUsSection">
             <div className="aboutus-left">

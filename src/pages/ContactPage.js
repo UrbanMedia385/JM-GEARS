@@ -22,7 +22,6 @@ const ContactPage = () => {
         <PageBanner title='Contact Us' bannerBg={bannerBg} currentPage='contact' />
         <ContactPageContents/>
         <BrandCarouselThree/>
-        <FooterForm/>
         <FooterThree/>
     </>
   )

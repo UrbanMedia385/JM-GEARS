@@ -28,7 +28,7 @@ const HomeThree = () => {
 
             <TeamFour/>
             <TestimonialTwo/>
-            <BlogThree/>
+            {/* <BlogThree/> */}
             <PortfolioOne/>
             <FaqOne/>
             <FooterForm/>

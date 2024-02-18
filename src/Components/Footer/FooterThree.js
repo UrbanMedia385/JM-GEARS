@@ -23,7 +23,7 @@ const FooterThree = () => {
             <div className="col-lg-5 col-md-6 col-12 order-1 order-lg-2 ">
                 <div className="footer-menu-2 mt-3 mt-lg-0 text-center text-md-end">
                 <ul>
-                    <li><Link to="/products">Our Products</Link></li>
+                <li><Link to="/cement-spares">Cement Plant Spare Parts</Link></li>
                     <li><Link to="/contact">Privacy Policy</Link></li>
                 </ul>
                 </div>

@@ -2433,7 +2433,7 @@ header.header-1 .main-menu ul > li:hover > ul {
 header.header-1 .main-menu ul > li > ul {
   position: absolute;
   top: 100%;
-  width: 200px;
+  width: max-content;
   background-color: #FFF;
   left: 0;
   z-index: 999;

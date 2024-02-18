@@ -100,7 +100,8 @@ const HeaderThree = () => {
                             <ul className="sub-menu">
                                 <li><Link to="/rotary">Rotary</Link></li>
                                 <li><Link to="/horizontal-grinding-mills">Horizontal Grinding Mills</Link></li>
-                                <li><Link to="/pricing">Cement Plant Spare Parts</Link></li>
+                                <li><Link to="/cement-spares">Cement Plant Spare Parts</Link></li>
+                                <li><Link to="/crushers">Crushers</Link></li>
                             </ul>
                         </li>
       <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleClose}>
