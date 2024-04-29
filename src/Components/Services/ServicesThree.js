@@ -5,7 +5,11 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import bannerBg from '../../assets/img/pricing-cta-bg.jpg';
 import tabImg1 from '../../assets/img/home1/tab-img.jpg'
+import JsonData from '../../Constants/ReadyPlants.json'
+import { useMediaQuery } from "@mui/material";
 const ProductsThree = () => {
+    const data = JsonData.ReadyPlants
+    const isMobile = useMediaQuery('(max-width:600px)');
     const settings = {
         dots: true,
         infinite: true,
@@ -47,14 +51,15 @@ const ProductsThree = () => {
                 </div>
                 <div className="row">
                 <Slider {...settings}>
-                    {ProductsThreeData.map((data) => (
-                        <div key={data.id}>
-                        <div className="single-products-box sb1">
+                    {data.map((data) => (
+                        <div key={data.id} >
+                       <div className="single-products-box sb1" style={!isMobile ? { minHeight: "450px" } : {}}>
+
                             <div className="img-box flex justify-center align-center">
                                             <img src={tabImg1} alt=""/>
                             </div>
                             <div className="content">
-                            <h3><Link to={`/productsDetails/id=${data.id}`}>{data.title}</Link></h3>
+                            <h4><Link to={`/ready-plants`}>{data.product_title}</Link></h4>
                             <p>{data.desc}</p>
                             </div>
                         </div>

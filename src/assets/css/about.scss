@@ -1,26 +1,23 @@
 
-.move-to-australia{
+.about-jm{
     background:#f4f4f4;
     padding-bottom: 30px;
-    @media screen and (max-width: 767px) {
-        h2{
-            padding: 0px 0 100px;
-            margin-top: 0;
-        }
-    }
-    @media screen and (min-width: 768px) {
-        h2{
-            padding: 100px 0 100px;
-            margin-top: 0;
-        }
-    }
+   
 
     .cover-section{
-        background-image: url("../img/BannerImages/crushers.jpg");
+        background-image: url("../img/BannerImages/about-us.jpg") !important;
             background-repeat: no-repeat;
             background-size: 100%;
         .container{
             position: relative;
+            .about-container{
+              margin-top: 270px !important;
+            }
+            @media screen and (max-width: 767px) {
+              .about-container{
+                margin-top: 150px !important;
+              }
+            }
             // img.coverSectionImage{
             //     position: absolute;
             //     left:0;

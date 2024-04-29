@@ -26,13 +26,10 @@ const AboutPage = () => {
   return (
     <>
         <HeaderThree/>
-        <PageBanner title='About us' bannerBg={bannerBg} currentPage='About' />
         <AboutTwo  />
         <AboutBanner/>
         <Timeline/>
         <Skill/>
-        <TeamThree/>
-        <BrandCarouselThree/>
         <FooterForm />
         <FooterThree/>
     </>

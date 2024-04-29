@@ -1,8 +1,8 @@
 import React, {  useEffect } from "react";
 
-import "../assets/css/moveToAustralia.scss";
+import "../assets/css/rotary.scss";
 import business from "../assets/img/BannerImages/Business.jpg";
-import rotaryKlin from "../assets/img/BannerImages//Rotary.jpg";
+import rotaryKlin from "../assets/img/BannerImages/rotary.jpg";
 import { useSearchParams } from "react-router-dom";
 import { EnquiryForm } from "./EnquiryForm";
 import { RotaryDryer } from "../Constants/Rotary/RotaryDryer";
@@ -18,7 +18,7 @@ export const RotaryPage = () => {
 
   };
   const bannerArray = {
-    ROTARYKILN: business,
+    ROTARYKILN: rotaryKlin,
     ROTARYDRYERS: rotaryKlin,
   };
 const HandleMenuChange = (main) => {
@@ -30,7 +30,7 @@ const HandleSubMenuChange = (main,sub) => {
   setSubMenu(sub)
 }
   return (
-    <div className="move-to-australia">
+    <div className="rotary">
       <div className="cover-section">
         <div className="container">
           <h2></h2>

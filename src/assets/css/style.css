@@ -4150,7 +4150,7 @@ header .header-top-bar .top-social-icons a:hover {
 
 @media (max-width: 767px) {
   .section-padding {
-    padding: 80px 0px;
+    padding: 0px 0px;
   }
 }
 
@@ -11296,3 +11296,15 @@ li.disabled {
   opacity: 0.5; /* or any other styling to indicate it's disabled */
   pointer-events: none; /* Disable click events */
 }
+@media (max-width: 501px) {
+.logo 
+{
+  max-width: 80px !important;
+}
+}
+@media (min-width: 502px) {
+  .logo 
+  {
+    max-width: 120px !important;
+  }
+  }

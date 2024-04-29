@@ -1,5 +1,5 @@
 
-.move-to-australia{
+.rotary{
     background:#f4f4f4;
     padding-bottom: 30px;
     @media screen and (max-width: 767px) {
@@ -16,7 +16,7 @@
     }
 
     .cover-section{
-        background-image: url("../img/BannerImages/crushers.jpg");
+        background-image: url("../img/BannerImages/rotary.jpg") !important;
             background-repeat: no-repeat;
             background-size: 100%;
         .container{
@@ -1102,7 +1102,7 @@
     }
   }
 
-  .move-to-australia .cover-section .container .AboutUsSection,
+  .rotary .cover-section .container .AboutUsSection,
   .types-of-visa-container .cover-section .container .AboutUsSection {
     flex-direction: column;
 

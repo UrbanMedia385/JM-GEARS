@@ -184,8 +184,20 @@
         padding: 0 2rem;
     }
 }
-
+@media screen and (min-width: 769px) {
+.enquiry-form-about{
+    top: 250px !important;
+}
+}
 @media screen and (max-width: 768px) {
+    #enquiry-form {
+        position: relative;
+        top: 0px;
+    }
+    .enquiry-form-about{
+        top: 100px !important;
+    }
+    
     /* #enquiry-form form .formSection {
         padding: 10px 0 10px 0;
     } */

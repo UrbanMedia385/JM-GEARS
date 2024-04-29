@@ -5,13 +5,12 @@ import { EnquiryForm } from '../../pages/EnquiryForm';
 import "../../assets/css/about.scss";
 const AboutTwo = () => {
   return (
-    <section className="about-section section-padding" style={{paddingTop:'0px'}}>
+    <section className="about-section section-padding">
             <div className="about-jm">
       <div className="cover-section">
         <div className="container">
-          
-
-    <EnquiryForm data='ALL'/>
+          <h2></h2>
+          <EnquiryForm data='ALL'/>
         <div className="container about-container ">
             <div className="row align-items-center">
                 <div className="col-xl-6 col-12 pe-xl-0">

@@ -12,15 +12,16 @@ const FooterThree = () => {
                     <p>© 2022 Copyright By <Link to='/'>JM GEARS</Link>. All Rights Reserved</p>                            
                 </div>
             </div>
-            <div className="col-lg-2 col-md-12 text-center order-1 order-lg-2 col-12">
+            <div className="col-lg-3 col-md-12 text-center order-1 order-lg-2 col-12">
                 <div className="footer-social">
-                    <a href="#"><i className="fab fa-facebook-f" /></a>
+                    Developed by Urban Media
+                    {/* <a href="#"><i className="fab fa-facebook-f" /></a>
                     <a href="#"><i className="fab fa-twitter" /></a>
                     <a href="#"><i className="fab fa-instagram" /></a>
-                    <a href="#"><i className="fab fa-linkedin-in" /></a>
+                    <a href="#"><i className="fab fa-linkedin-in" /></a> */}
                 </div>
             </div>
-            <div className="col-lg-5 col-md-6 col-12 order-1 order-lg-2 ">
+            <div className="col-lg-4 col-md-6 col-12 order-1 order-lg-2 ">
                 <div className="footer-menu-2 mt-3 mt-lg-0 text-center text-md-end">
                 <ul>
                 <li><Link to="/cement-spares">Cement Plant Spare Parts</Link></li>

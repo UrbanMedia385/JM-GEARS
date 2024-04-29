@@ -72,7 +72,7 @@ const productsData = foundValue.map(subItem => {
   };
 
   return (
-    <div id="enquiry-form">
+    <div id="enquiry-form" className={data=== 'ALL' || data==='READYPLANTS'?"enquiry-form-about":"enquiry-form-normal"}>
       <form
         className="form"
         autoComplete="on"

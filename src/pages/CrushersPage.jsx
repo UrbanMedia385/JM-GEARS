@@ -1,7 +1,7 @@
 import React, {  useEffect } from "react";
 
-import "../assets/css/moveToAustralia.scss";
-import business from "../assets/img/BannerImages/Business.jpg";
+import "../assets/css/crushers.scss";
+import business from "../assets/img/BannerImages/crushers.jpg";
 import { useSearchParams } from "react-router-dom";
 import { EnquiryForm } from "./EnquiryForm";
 import { CrushersDescription } from "../Constants/Crushers/Crushers";
@@ -39,7 +39,7 @@ const HandleSubMenuChange = (main,sub) => {
 
 }
   return (
-    <div className="move-to-australia">
+    <div className="crushers">
       <div className="cover-section">
         <div className="container">
           <h2></h2>

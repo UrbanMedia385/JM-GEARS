@@ -1,8 +1,8 @@
 import React from "react";
 
-import "../assets/css/moveToAustralia.scss";
-import business from "../assets/img/BannerImages/Business.jpg";
-import rotaryKlin from "../assets/img/BannerImages//Rotary.jpg";
+import "../assets/css/horizontal-griding.scss";
+import business from "../assets/img/BannerImages/horizontal.jpg";
+import rotaryKlin from "../assets/img/BannerImages/horizontal.jpg";
 import { EnquiryForm } from "./EnquiryForm";
 import { HorizontalGrindingMills } from "../Constants/HorizontalGrindingMills";
 import { BallMill } from "../Constants/BallMill";
@@ -40,7 +40,7 @@ const HandleMenuChange = (main) => {
   setSubMenu("")
 }
   return (
-    <div className="move-to-australia">
+    <div className="horizontal-grinding-mill">
       <div className="cover-section">
         <div className="container">
           <h2></h2>

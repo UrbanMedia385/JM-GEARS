@@ -1,8 +1,11 @@
 import React, {  useEffect } from "react";
 
-import "../assets/css/moveToAustralia.scss";
+import "../assets/css/spare-parts.scss";
 import { Business } from "../Constants/Business";
-import business from "../assets/img/BannerImages/Business.jpg";
+import grinding from "../assets/img/BannerImages/spare-parts/grinding-mill.jpg";
+import klin from "../assets/img/BannerImages/spare-parts/mill-spares.jpg";
+import miscellaneous from "../assets/img/BannerImages/spare-parts/miscellaneous.jpg";
+import vrm from "../assets/img/BannerImages/spare-parts/vrm-rollers.jpg";
 import { useSearchParams } from "react-router-dom";
 import { EnquiryForm } from "./EnquiryForm";
 import { KilnShell } from "../Constants/KILN/KilnShell";
@@ -71,35 +74,35 @@ export const CementPlantsSpares = () => {
 
   };
   const bannerArray = {
-    KILNSHELL: business,
-    KILNTYRE : business,
-    GIRTHGEAR : business,
-    SUPPORTINGROLLERS : business,
-    BEARINGHOUSINGS :business,
-    CHAIRPLATES : business,
-    SPRINGPLATES : business,
-    THRUSTROLLER : business,
-    PINIONANDPINIONSHAFTS : business,
-    GEARCOUPLINGS : business,
-    TORSIONSHAFT : business,
-    BASEFRAMES :business,
-    MILLSHELL : business,
-    MILLGIRTHGEAR : business,
-    MILLPINION : business,
-    MILLPINIONBEARINGHOUSING :business,
-    MILLHEADS :business,
-    VRMROLLERHUB : business,
-    ROTARYAIR : business,
-    GRINDINGTABLE : business,
-    PULLRODS : business,
-    TIERODS : business,
-    ROCKERARMS :  business,
-    ROTARYARMS : business,
-    ROTARYFEEDERS : business,
-    ROLLERPRESS : business,
-    IMPELLERS : business,
-    WOBBLERSHAFT : business,
-    GRINDINGPATH : business
+    KILNSHELL: klin,
+    KILNTYRE : klin,
+    GIRTHGEAR : klin,
+    SUPPORTINGROLLERS : klin,
+    BEARINGHOUSINGS :klin,
+    CHAIRPLATES : klin,
+    SPRINGPLATES : klin,
+    THRUSTROLLER : klin,
+    PINIONANDPINIONSHAFTS : klin,
+    GEARCOUPLINGS : klin,
+    TORSIONSHAFT : klin,
+    BASEFRAMES :klin,
+    MILLSHELL : grinding,
+    MILLGIRTHGEAR : grinding,
+    MILLPINION : grinding,
+    MILLPINIONBEARINGHOUSING :grinding,
+    MILLHEADS :grinding,
+    VRMROLLERHUB : vrm,
+    ROTARYAIR : vrm,
+    GRINDINGTABLE : vrm,
+    PULLRODS : vrm,
+    TIERODS : vrm,
+    ROCKERARMS :  vrm,
+    ROTARYARMS : vrm,
+    ROTARYFEEDERS : vrm,
+    ROLLERPRESS : miscellaneous,
+    IMPELLERS : miscellaneous,
+    WOBBLERSHAFT : miscellaneous,
+    GRINDINGPATH : miscellaneous
   };
 const HandleMenuChange = (main, sub) => {
   setMenu(main)
@@ -114,7 +117,7 @@ const HandleSubMenuChange = (main,sub) => {
 
 }
   return (
-    <div className="move-to-australia">
+    <div className="cement-spare-parts">
       <div className="cover-section">
         <div className="container">
           <h2></h2>
