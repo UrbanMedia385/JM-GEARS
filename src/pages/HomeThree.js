@@ -22,16 +22,15 @@ const HomeThree = () => {
             <HeroSocials/>
             <ProductsOne />
             <ProductsThree />
-            <FeaturesOne/>
             <CtaTwo/>
-            <BrandCarouselFour/>
 
-            <TeamFour/>
+            {/* <TeamFour/> */}
             <TestimonialTwo/>
             {/* <BlogThree/> */}
-            <PortfolioOne/>
-            <FaqOne/>
-            <FooterForm/>
+            {/* <PortfolioOne/> */}
+
+            <FaqOne/>          
+              <FooterForm/>
             <FooterThree/>
         </>
     )

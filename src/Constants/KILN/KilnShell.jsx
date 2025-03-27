@@ -1,10 +1,15 @@
 export const KilnShell = () => (
-    <>
-          <h3>Kiln Shell</h3>
-
-<p>
-The Kiln Shell is the outer cylindrical structure of a rotary kiln in cement plants, providing structural integrity for high-temperature processes.
-</p>
-    </>
-  );
-  
+  <>
+    <h3>Kiln Shell</h3>
+    <ul>
+      <li>
+        The kiln shell is the outermost structure of a rotary kiln, providing
+        structural integrity for high-temperature processes.
+      </li>
+      <li>
+        It's designed to withstand thermal stresses and mechanical loads while
+        containing the materials being processed inside the kiln.
+      </li>
+    </ul>
+  </>
+);

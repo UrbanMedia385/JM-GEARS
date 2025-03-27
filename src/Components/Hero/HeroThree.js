@@ -13,16 +13,27 @@ const HeroThree = () => {
             <div className="welcome-slide">
                 <div className="container">
                     <div className="row">
-                        <div className="col-xl-8 pe-lg-0">
+                    <div className="col-xl-4 only-for-mobile">
+                            <div className="hero-image">
+                                <div className="big-img">
+                                    <img src={heroImg} alt="" />
+                                    <div className="element">
+                                        <img src={img1} alt="" />
+                                        <img className="only-for-mobile" src={img2} alt="" />
+                                    </div>
+                                </div>
+                                <div className="card-img only-for-mobile">
+                                    <img src={img3} alt="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xl-8 pe-lg-0 pt-70">
                             <div className="hero-content text-center text-md-start">
-                                <h1>JM GEARS & ENGINEERING</h1>
+                                <h1 className="not-for-mobile">JM GEARS & ENGINEERING</h1>
                                 {/* <h2><span> ENGINEERING</span></h2> */}
-                                <p>The company is involved in manufacturing & supply of high quality heavy engineering products such as Girth Gears,
-Pinions, Pinion Shafts, Bull Gears, Industrial Gears, Kiln tyres, Kiln Shells, Kiln Shell with Chair Plates machined,
-Supporting rollers, Cement Mill Shells, Mill Shells, Mill head, Trunion heads, Crusher rotors, roller press, roller hub,
-Grinding tables, heavy forged shafts etc.</p>
+                                <p>Established in 1975 in the picturesque city of Udaipur, Rajasthan, JM Gears & Engineering has been a cornerstone in the manufacturing and supply of high-quality heavy engineering products. We take pride in our commitment to precision, quality, and innovation.</p>
                                 <Link to='/about' className="theme-btn style-3 mt-35">Read More </Link>
-                                <div className="hero-funfact mt-5">
+                                <div className="hero-funfact">
                                     <div className="row">
                                         <div className="col-lg-3 col-md-6 col-12">
                                             <div className="single-fun-fact mt-4">
@@ -40,17 +51,17 @@ Grinding tables, heavy forged shafts etc.</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-4">
+                        <div className="col-xl-4 not-for-mobile">
                             <div className="hero-image">
                                 <div className="big-img">
                                     <img src={heroImg} alt="" />
                                     <div className="element">
-                                        <img src={img1} alt="" />
-                                        <img src={img2} alt="" />
+                                        <img className="only-for-mobile" src={img1} alt="" />
+                                        <img className="only-for-mobile"  src={img2} alt="" />
                                     </div>
                                 </div>
                                 <div className="card-img">
-                                    <img src={img3} alt="" />
+                                    <img className="only-for-mobile" src={img3} alt="" />
                                 </div>
                             </div>
                         </div>

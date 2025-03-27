@@ -5,8 +5,11 @@ import faqOneData from "./faqOneData";
 const FaqOne = () => {
     return (
         <section className="faq-funfact-section section-padding">
+            
             <div className="container">
-                <div className="fun-fact-wrapper text-white mtm-30 text-center">
+                <div className="fun-fact-wrapper pt-70 pb-100 text-white  text-center">
+
+            <h6 className="text-black">Why Choose JM Gears & Engineering for Your Cement Plant Equipment?</h6>
                     <div className="row">
                         <div className="col-lg-3 col-md-6 col-12">
                             <div className="single-fun-fact mb-4 mb-lg-0">
@@ -37,6 +40,7 @@ const FaqOne = () => {
                 <div className="faq-wrapper section-padding pb-0">
                     <div className="row equal">
                         <div className="col-lg-6 col-12 col-xl-7 pe-lg-0">
+                      
                             <div className="faq-content">
                                 <div className="faq-accordion">
                                     <div className="accordion" id="accordion">

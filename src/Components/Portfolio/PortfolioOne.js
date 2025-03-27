@@ -8,7 +8,7 @@ import { SRLWrapper } from 'simple-react-lightbox';
 
 const PortfolioOne = () => {
     return (
-        <section className="portfolio-carousel-wrapper clearfix section-padding">
+        <section className="portfolio-carousel-wrapper clearfix section-padding mt-4">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-8 col-xl-7 col-12">

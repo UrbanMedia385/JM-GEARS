@@ -1,10 +1,10 @@
-import bgi from '../assets/img/BannerImages/Business.jpg'
+
 export const HorizontalGrindingMills = () => (
   <>
-    <h3>Horizontal Grinding Mills</h3>
-
-    <p>
-      Horizontal Grinding Mills are industrial machines that horizontally rotate to grind and pulverize materials. Widely used in diverse industries, they enhance efficiency in material processing and particle size reduction.
-    </p>
+<h3>HORIZONTAL GRINDING MILLS</h3>
+<ul>
+    <li>Horizontal Grinding <a href="ldkdo">Mills</a> are robust industrial machines designed to grind and pulverize materials efficiently.</li>
+    <li>They feature horizontal rotation, enabling thorough grinding and particle size reduction across various industries.</li>
+</ul>
   </>
 );

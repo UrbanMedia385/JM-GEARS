@@ -8,7 +8,7 @@ const BlogThree = () => {
     <section className="blog-listing-wrapper section-padding pt-0">
         <div className="container">
             <div className="row">
-                <div className="col-xl-6 col-lg-8 mb-4 offset-xl-3 offset-lg-2 col-12 text-center">
+                <div className="col-xl-6 col-lg-8 mb-4 mt-4 offset-xl-3 offset-lg-2 col-12 text-center">
                     <div className="section-title-3">
                         <h6>Latest News</h6>
                         <h2>News Insight</h2>

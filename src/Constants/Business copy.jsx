@@ -1,4 +1,4 @@
-import bgi from '../assets/img/BannerImages/Business.jpg'
+
 export const Business = () => (
     <>
           <h3>Hammer Crusher </h3>

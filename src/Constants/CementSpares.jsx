@@ -1,4 +1,4 @@
-import bgi from '../assets/img/BannerImages/Business.jpg'
+
 export const BallMill = () => (
   <>
     <h3>CEMENT AND STEEL SPARES</h3>

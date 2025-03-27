@@ -20,7 +20,7 @@ const MobileMenu = ({mobileMenu, handleMobileMenu}) => {
                             </ul>
                         </li>
                         <li><Link to="/ready-plants">Ready Plants</Link></li>
-                        <li className="disabled"><a href="#">Cement Plants <i className="fal fa-plus"></i></a>
+                        <li ><a href="#">Cement Plants <i className="fal fa-plus"></i></a>
                             <ul className="sub-menu">
                                 <li><Link to="/cementCompletePlant">Cement Complete Integrated Unit</Link></li>
                                 <li><Link to="/cementGrindingUnit">Cement Grinding Unit</Link></li>

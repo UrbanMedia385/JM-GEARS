@@ -37,6 +37,8 @@ import { RollerPressRolls } from "../Constants/Miscellaneous/RollerPressRolls";
 import { ImpellersAndFans } from "../Constants/Miscellaneous/ImpellersAndFans";
 import { WobblerShaft } from "../Constants/Miscellaneous/WobblerShaft";
 import { GrindingPathAccessories } from "../Constants/Miscellaneous/GrindingPathAccessories";
+import { StructuralSteel } from "../Constants/Fabrication/StructuralSteel";
+import { Industrial } from "../Constants/Fabrication/Industrial";
 export const CementPlantsSpares = () => {
   let [searchParams, setSearchParams] = useSearchParams();
   const [selectedList, setMenu] = React.useState("KILN");
@@ -70,7 +72,9 @@ export const CementPlantsSpares = () => {
     ROLLERPRESS : <RollerPressRolls />,
     IMPELLERS : <ImpellersAndFans />,
     WOBBLERSHAFT : <WobblerShaft />,
-    GRINDINGPATH : <GrindingPathAccessories />
+    GRINDINGPATH : <GrindingPathAccessories />,
+    STRUCTURALSTEEL : <StructuralSteel />,
+    INDUSTRIAL: <Industrial />
 
   };
   const bannerArray = {
@@ -102,7 +106,9 @@ export const CementPlantsSpares = () => {
     ROLLERPRESS : miscellaneous,
     IMPELLERS : miscellaneous,
     WOBBLERSHAFT : miscellaneous,
-    GRINDINGPATH : miscellaneous
+    GRINDINGPATH : miscellaneous,
+    STRUCTURALSTEEL: miscellaneous,
+    INDUSTRIAL: miscellaneous,
   };
 const HandleMenuChange = (main, sub) => {
   setMenu(main)
@@ -114,7 +120,6 @@ const HandleMenuChange = (main, sub) => {
 const HandleSubMenuChange = (main,sub) => {
   setMenu(main)
   setSubMenu(sub)
-
 }
   return (
     <div className="cement-spare-parts">
@@ -138,6 +143,18 @@ const HandleSubMenuChange = (main,sub) => {
                   {/* <span className="material-symbols-outlined">expand_more</span> */}
                 </li>
                 <ul  style={{marginLeft:"7px"}}>
+                {selectedList === "KILN" || selectedSubList === "GIRTHGEAR"?
+                <li
+                  className={`${
+                    selectedSubList === "GIRTHGEAR" ? "active" : " "
+                  }`}
+                  onClick={() => HandleSubMenuChange("KILN","GIRTHGEAR")}
+                >
+                  {"Girth Gear "}{" "}
+                  {/* <span className="material-symbols-outlined">expand_more</span> */}
+                </li>:
+                ""
+              }
                 {selectedList === "KILN" || selectedSubList === "KILNSHELL"?
                 <li
                   className={`${
@@ -162,18 +179,7 @@ const HandleSubMenuChange = (main,sub) => {
                 </li>:
                 ""
               }
-               {selectedList === "KILN" || selectedSubList === "GIRTHGEAR"?
-                <li
-                  className={`${
-                    selectedSubList === "GIRTHGEAR" ? "active" : " "
-                  }`}
-                  onClick={() => HandleSubMenuChange("KILN","GIRTHGEAR")}
-                >
-                  {"Girth Gear "}{" "}
-                  {/* <span className="material-symbols-outlined">expand_more</span> */}
-                </li>:
-                ""
-              }
+              
               {selectedList === "KILN" || selectedSubList === "SUPPORTINGROLLERS"?
                 <li
                   className={`${
@@ -526,6 +532,92 @@ const HandleSubMenuChange = (main,sub) => {
               
 
               </ul>
+              <li
+                  className={`${
+                    selectedList === "FABRICATION" ? "active" : " "
+                  }`}
+                  onClick={() => HandleMenuChange("FABRICATION", "STRUCTURALSTEEL")}
+                  style={{fontWeight:'bold'}}
+                >
+                  Fabrication  {" "}
+                  {/* <span className="material-symbols-outlined">expand_more</span> */}
+                </li>
+                <ul  style={{marginLeft:"7px"}}>
+                {selectedList === "FABRICATION" || selectedSubList === "STRUCTURALSTEEL"?
+                <li
+                  className={`${
+                    selectedSubList === "STRUCTURALSTEEL" ? "active" : " "
+                  }`}
+                  onClick={() => HandleSubMenuChange("FABRICATION","STRUCTURALSTEEL")}
+                >
+                  {"Structural Steel Fabrication"}{" "}
+                  {/* <span className="material-symbols-outlined">expand_more</span> */}
+                </li>:
+                ""
+              }
+               {selectedList === "FABRICATION" || selectedSubList === "INDUSTRIAL"?
+                <li
+                  className={`${
+                    selectedSubList === "INDUSTRIAL" ? "active" : " "
+                  }`}
+                  onClick={() => HandleSubMenuChange("FABRICATION","INDUSTRIAL")}
+                >
+                  {"Industrial Sheds"}{" "}
+                  {/* <span className="material-symbols-outlined">expand_more</span> */}
+                </li>:
+                ""
+              }
+              {selectedList === "FABRICATION" || selectedSubList === "WAREHOUSE"?
+                <li
+                  className={`${
+                    selectedSubList === "WAREHOUSE" ? "active" : " "
+                  }`}
+                  onClick={() => HandleSubMenuChange("FABRICATION","WAREHOUSE")}
+                >
+                  {"Warehouse"}{" "}
+                  {/* <span className="material-symbols-outlined">expand_more</span> */}
+                </li>:
+                ""
+              }
+              {selectedList === "FABRICATION" || selectedSubList === "STORAGE"?
+                <li
+                  className={`${
+                    selectedSubList === "STORAGE" ? "active" : " "
+                  }`}
+                  onClick={() => HandleSubMenuChange("FABRICATION","STORAGE")}
+                >
+                  {"Storage yards"}{" "}
+                  {/* <span className="material-symbols-outlined">expand_more</span> */}
+                </li>:
+                ""
+              }
+               {selectedList === "FABRICATION" || selectedSubList === "PREFAB"?
+                <li
+                  className={`${
+                    selectedSubList === "PREFAB" ? "active" : " "
+                  }`}
+                  onClick={() => HandleSubMenuChange("FABRICATION","PREFAB")}
+                >
+                  {"Prefab buildings"}{" "}
+                  {/* <span className="material-symbols-outlined">expand_more</span> */}
+                </li>:
+                ""
+              }
+               {selectedList === "FABRICATION" || selectedSubList === "TANKSANDWESSELS"?
+                <li
+                  className={`${
+                    selectedSubList === "TANKSANDWESSELS" ? "active" : " "
+                  }`}
+                  onClick={() => HandleSubMenuChange("FABRICATION","TANKSANDWESSELS")}
+                >
+                  {"Tanks and Vessels"}{" "}
+                  {/* <span className="material-symbols-outlined">expand_more</span> */}
+                </li>:
+                ""
+              }
+
+              </ul>
+              
 
             </ul>
             </div>
