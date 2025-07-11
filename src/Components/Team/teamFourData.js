@@ -7,7 +7,7 @@ const teamFourData = [
     {
         id: uuidv4(),
         img: img1,
-        name: 'Salman Ahmed',
+        name: 'GS Kanda',
         designation: 'CEO, Founder',
         fb: '#',
         twitter: '#',
@@ -18,8 +18,8 @@ const teamFourData = [
     {
         id: uuidv4(),
         img: img2,
-        name: 'RS Rahul Das',
-        designation: 'Head Engineer',
+        name: 'Satinder Kanda',
+        designation: 'Director',
         fb: '#',
         twitter: '#',
         insta: '#',
@@ -29,8 +29,8 @@ const teamFourData = [
     {
         id: uuidv4(),
         img: img3,
-        name: 'Samantha Liza',
-        designation: 'Creative Designer',
+        name: 'Monit Singh Kanda',
+        designation: 'Director',
         fb: '#',
         twitter: '#',
         insta: '#',
