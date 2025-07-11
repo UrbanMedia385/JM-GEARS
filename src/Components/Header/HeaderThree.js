@@ -96,7 +96,7 @@ const HeaderThree = () => {
                     <ul>
                     <li><Link to="/">Home</Link></li>
                         <li><Link to="/about">about us</Link></li>
-                        <li >
+                        {/* <li >
                           <a href="#"> Turnkey Projects <i className="fal fa-plus"></i></a>
                           <ul className="sub-menu">
                             <li><Link to="/cementCompletePlant">Cement Integrated Unit</Link></li>
@@ -110,7 +110,7 @@ const HeaderThree = () => {
                             <li><Link to="/pricing">Rotary Calciner </Link></li>
                             <li><Link to="/pricing">Rotary Drums </Link></li>
                             <li><Link to="/pricing">Grinding Mills </Link></li>       </ul>
-                        </li>
+                        </li> */}
                         <li><a href="#">Products <i className="fal fa-plus"></i></a>
                             <ul className="sub-menu">
                                 <li><Link to="/rotary">Rotary</Link></li>
@@ -129,7 +129,7 @@ const HeaderThree = () => {
                           ))}
                         </Menu>
 
-                        <li><Link to="/news">Maintenance & Repairs</Link></li>
+                        <li><Link to="/contact">Maintenance & Repairs</Link></li>
                         <li><Link to="/ready-plants">Ready Plants</Link></li>
   
                        
