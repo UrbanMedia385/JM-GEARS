@@ -24,7 +24,7 @@ const HomeThree = () => {
             <ProductsThree />
             <CtaTwo/>
 
-            {/* <TeamFour/> */}
+            <TeamFour/>
             <TestimonialTwo/>
             {/* <BlogThree/> */}
             {/* <PortfolioOne/> */}

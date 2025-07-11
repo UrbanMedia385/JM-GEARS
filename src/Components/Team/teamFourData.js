@@ -1,7 +1,7 @@
 import {v4 as uuidv4} from 'uuid';
-import img1 from '../../assets/img/home3/team1.jpg';
-import img2 from '../../assets/img/home3/team2.jpg';
-import img3 from '../../assets/img/home3/team3.jpg';
+import img1 from '../../assets/img/home3/grandfather.png';
+import img2 from '../../assets/img/home3/father.jpg';
+import img3 from '../../assets/img/home3/son.jpg';
 
 const teamFourData = [
     {

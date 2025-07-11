@@ -7943,8 +7943,8 @@ header .header-top-bar .top-social-icons a:hover {
   height: 100%;
   content: "";
   z-index: -1;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(#050d72));
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #050d72 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(#000));
+  /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #050d72 100%); */
   opacity: .7;
 }
 

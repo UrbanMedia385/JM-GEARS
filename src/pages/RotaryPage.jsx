@@ -2,7 +2,7 @@ import React, {  useEffect } from "react";
 
 import "../assets/css/rotary.scss";
 import business from "../assets/img/BannerImages/Business.jpg";
-import rotaryKlin from "../assets/img/BannerImages/rotary.jpg";
+import rotaryKlin from "../assets/img/BannerImages/Business.jpg";
 import { useSearchParams } from "react-router-dom";
 import { EnquiryForm } from "./EnquiryForm";
 import { RotaryDryer } from "../Constants/Rotary/RotaryDryer";
