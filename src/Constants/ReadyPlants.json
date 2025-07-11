@@ -2,6 +2,7 @@
 {"ReadyPlants": 
 [
     {
+        "id":1,
         "product_title":" ROTARY KILN (4550MM X 71000 MM LONG)",
         "made_in": "FLS, GERMANY",
         "title2": "BRAND NEW UNUSED ",
@@ -13,6 +14,7 @@
 
       },
       {
+        "id":2,
         "product_title":"ROTARY KILN (4550MM X 71000 MM LONG)",
         "made_in": "FLS, GERMANY",
         "title2": "BRAND NEW UNUSED ",
@@ -24,6 +26,7 @@
 
       },
       {
+        "id":3,
         "product_title":" VERTICAL ROLLER MILLS",
         "made_in": "FLS, GERMANY",
         "title2": "RAW MILL:- Pfeiferin MAKE GERMANY ",
@@ -35,6 +38,7 @@
 
       },
       {
+        "id":4,
         "product_title":"VERTICAL ROLLER MILL",
         "made_in": "FLS, GERMANY",
         "title2": "BRAND NEW UNUSED ",
@@ -46,6 +50,7 @@
 
       },
       {
+        "id":5,
         "product_title":" Rotary KILN ACCESSORIES",
         "made_in": "FLS, GERMANY",
         "title2": "BRAND NEW UNUSED ",
@@ -66,6 +71,7 @@
 
       },
       {
+        "id":6,
         "product_title":"BALL MILL/HORIZONTAL GRINDING MILL",
         "made_in": "DIA:- P 3600 MM X 1450 MM LONG",
         "title2": "BRAND NEW UNUSED ",

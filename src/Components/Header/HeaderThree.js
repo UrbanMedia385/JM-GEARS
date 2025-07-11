@@ -96,33 +96,42 @@ const HeaderThree = () => {
                     <ul>
                     <li><Link to="/">Home</Link></li>
                         <li><Link to="/about">about us</Link></li>
+                        <li >
+                          <a href="#"> Turnkey Projects <i className="fal fa-plus"></i></a>
+                          <ul className="sub-menu">
+                            <li><Link to="/cementCompletePlant">Cement Integrated Unit</Link></li>
+                            <li><Link to="/cementGrindingUnit">Cement Grinding Unit</Link></li>
+                            <li><Link to="/pricing">GGBS Grinding Unit</Link></li>
+                            <li><Link to="/pricing">Ultrafine GGBS Grinding Unit </Link></li>
+                            <li><Link to="/pricing">DRI Plant/ Sponge Iron plant </Link></li>
+                            <li><Link to="/pricing">Rotary Kiln </Link></li>
+                            <li><Link to="/pricing">Rotary Dryers </Link></li>
+                            <li><Link to="/pricing">Rotary Cooler</Link></li>
+                            <li><Link to="/pricing">Rotary Calciner </Link></li>
+                            <li><Link to="/pricing">Rotary Drums </Link></li>
+                            <li><Link to="/pricing">Grinding Mills </Link></li>       </ul>
+                        </li>
                         <li><a href="#">Products <i className="fal fa-plus"></i></a>
                             <ul className="sub-menu">
                                 <li><Link to="/rotary">Rotary</Link></li>
                                 <li><Link to="/horizontal-grinding-mills">Horizontal Grinding Mills</Link></li>
-                                <li><Link to="/pricing">Cement Plant Spare Parts</Link></li>
+                                <li><Link to="/cement-spares">Cement Plant Spare Parts</Link></li>
+                                <li><Link to="/crushers">Crushers</Link></li>
                             </ul>
                         </li>
-      <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleClose}>
-        {categories.map((category) => (
-          <SubMenu
-            key={category.path}
-            label={category.label}
-            subCategories={category.subCategories}
-          />
-        ))}
-      </Menu>
+                        <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleClose}>
+                          {categories.map((category) => (
+                            <SubMenu
+                              key={category.path}
+                              label={category.label}
+                              subCategories={category.subCategories}
+                            />
+                          ))}
+                        </Menu>
+
+                        <li><Link to="/news">Maintenance & Repairs</Link></li>
                         <li><Link to="/ready-plants">Ready Plants</Link></li>
-                        <li className="disabled">
-                          <a href="#">Cement Plants <i className="fal fa-plus"></i></a>
-                          <ul className="sub-menu">
-                            <li><Link to="/cementCompletePlant">Cement Complete Integrated Unit</Link></li>
-                            <li><Link to="/cementGrindingUnit">Cement Grinding Unit</Link></li>
-                            <li><Link to="/pricing">Cement Plant Spare Parts</Link></li>
-                            <li><Link to="/pricing">Cement Part Estimates</Link></li>
-                          </ul>
-                        </li>
-                        <li><Link to="/news">News</Link></li>
+  
                        
                     </ul>
                 </div>

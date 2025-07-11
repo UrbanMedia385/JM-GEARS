@@ -12,7 +12,7 @@ const TeamFive = () => {
         <div className="container">
             <div className="row mb-30">
                 <div className="col-xl-6">
-                    <div className="section-title-4">
+                    <div className="section-title">
                     <h2>Meet The Team Behind Your Success</h2>
                     </div>
                 </div>

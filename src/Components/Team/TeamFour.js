@@ -6,8 +6,8 @@ const TeamFour = () => {
     <section className="our-team-two-wrapper half-bg section-padding pb-0">
         <div className="container">
             <div className="row">
-                <div className="col-xl-6 col-lg-8 mb-4 offset-xl-3 offset-lg-2 col-12 text-center">
-                    <div className="section-title-3">
+                <div className="col-xl-6 col-lg-8 mb-4 mt-4 offset-xl-3 offset-lg-2 col-12 text-center">
+                    <div className="section-title">
                         <h6>Our Team</h6>
                         <h2>Meet the team behind your success</h2>
                     </div>

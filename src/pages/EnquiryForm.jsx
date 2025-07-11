@@ -1,31 +1,38 @@
 import React, { useState, useEffect, useRef } from "react";
 import "../assets/css/EnquiryForm.css";
 import { Button, Checkbox, FormControl, Grid, Input, InputLabel, ListItemText, ListSubheader, MenuItem, OutlinedInput, Select, TextField } from "@mui/material";
+import { CementSpareParts } from "../ProductsData/cementSparePartsData";
 const ITEM_HEIGHT = 48;
 const ITEM_PADDING_TOP = 8;
 const MenuProps = {
   PaperProps: {
     style: {
-      maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP,
-      width: 250,
+      maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP +50,
+      // width: 250,
     },
   },
 };
 
-const names = [
-  'Oliver Hansen',
-  'Van Henry',
-  'April Tucker',
-  'Ralph Hubbard',
-  'Omar Alexander',
-  'Carlos Abbott',
-  'Miriam Wagner',
-  'Bradley Wilkerson',
-  'Virginia Andrews',
-  'Kelly Snyder',
-];
 
-export const EnquiryForm = ({ gc, from }) => {
+export const EnquiryForm = ({data}) => {
+  console.log(data)
+// Extracting the 'CementSpareParts' object
+// const cementSparePartsObject = CementSpareParts.find(item => item.hasOwnProperty('CementSpareParts'))?.CementSpareParts || [];
+const foundObject = CementSpareParts.find(item => item.hasOwnProperty(data));
+
+// Extract the value associated with the key
+const foundValue = foundObject ? foundObject[data] : [];
+
+// Extract the array of values from the found value
+const crushersArray = foundValue[0]?.[data] || [];
+
+// Extracting keys and values from all the object
+const productsData = foundValue.map(subItem => {
+  const key = Object.keys(subItem)[0]; // Extracting the key
+  const values = Object.values(subItem)[0]; // Extracting the values
+  return { key, values };
+});
+
   const [personName, setPersonName] =useState([]);
   const handleInputChange = (event) => {
     let inputValue = event.target.value;
@@ -51,9 +58,21 @@ export const EnquiryForm = ({ gc, from }) => {
       typeof value === 'string' ? value.split(',') : value,
     );
   };
+  const handleToggle = (value) => () => {
+    const currentIndex = personName.indexOf(value);
+    const newChecked = [...personName];
+
+    if (currentIndex === -1) {
+      newChecked.push(value);
+    } else {
+      newChecked.splice(currentIndex, 1);
+    }
+
+    setPersonName(newChecked);
+  };
 
   return (
-    <div id="enquiry-form">
+    <div id="enquiry-form" className={data=== 'ALL' || data==='READYPLANTS'?"enquiry-form-about":"enquiry-form-normal"}>
       <form
         className="form"
         autoComplete="on"
@@ -140,7 +159,7 @@ export const EnquiryForm = ({ gc, from }) => {
               },
             }}
           >
-            <ListSubheader>Category 1</ListSubheader>
+            {/* <ListSubheader>Cement Spare Parts</ListSubheader>
             {names.map((name) => (
               <MenuItem key={name} value={name}>
                 <Checkbox checked={personName.indexOf(name) > -1} />
@@ -153,7 +172,21 @@ export const EnquiryForm = ({ gc, from }) => {
                 <Checkbox checked={personName.indexOf(name) > -1} />
                 <ListItemText primary={name} />
               </MenuItem>
-            ))}
+            ))} */}
+            {productsData.map((item) => (
+        <>
+          <ListSubheader>{item.key}</ListSubheader>
+          {item.values.map((value) => (
+            <MenuItem key={value} value={value}>
+                            <Checkbox
+                checked={personName.indexOf(value) > -1}
+                onChange={handleToggle(value)}
+              />
+              <ListItemText primary={value} />
+            </MenuItem>
+          ))}
+        </>
+      ))}
           </Select>
         </FormControl>
       </Grid>

@@ -23,6 +23,8 @@ import FeaturesOne from './Components/Features/FeaturesOne';
 import ReadyPlants from './pages/ReadyPlants';
 import Rotary from './pages/Rotary';
 import HorizontalGrinding, { HorizontalGrindingMills } from './pages/HorizontalGrindingMills';
+import CementSpares from './pages/CementSpares';
+import Crushers from './pages/Crushers';
 
 
 function App() {
@@ -56,8 +58,9 @@ function App() {
         <Route path="/cementGrindingUnit" element={<CementGrindingUnit />} />
         <Route path="/rotary" element={<Rotary />} />
         <Route path="/horizontal-grinding-mills" element={<HorizontalGrinding />} />
+         <Route path="/cement-spares" element={<CementSpares />} />
+         <Route path="/crushers" element={<Crushers />} />
         <Route path="/ready-plants" element={<ReadyPlants />} />
-
       </Routes>
     </>
     )

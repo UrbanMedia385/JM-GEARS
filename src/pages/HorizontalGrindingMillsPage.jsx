@@ -1,10 +1,8 @@
-import React, {  useEffect } from "react";
+import React from "react";
 
-import "../assets/css/moveToAustralia.scss";
-import { Business } from "../Constants/Business";
-import business from "../assets/img/BannerImages/Business.jpg";
-import rotaryKlin from "../assets/img/BannerImages//Rotary.jpg";
-import { useSearchParams } from "react-router-dom";
+import "../assets/css/horizontal-griding.scss";
+import business from "../assets/img/BannerImages/horizontal.jpg";
+import rotaryKlin from "../assets/img/BannerImages/horizontal.jpg";
 import { EnquiryForm } from "./EnquiryForm";
 import { HorizontalGrindingMills } from "../Constants/HorizontalGrindingMills";
 import { BallMill } from "../Constants/BallMill";
@@ -13,15 +11,11 @@ import { TubeMill } from "../Constants/TubeMill";
 import { SAGMill } from "../Constants/SAGMill";
 import { CementMill } from "../Constants/CementMill";
 import { OreGrindingMill } from "../Constants/OreGrindingMill";
+// import { OreGrindingMill } from "../Constants/OreGrindingMill";
 
 export const HorizontalGrindingMillsPage = () => {
-  let [searchParams, setSearchParams] = useSearchParams();
   const [selectedList, setMenu] = React.useState("HorizontalGrinding");
   const [selectedSubList, setSubMenu] = React.useState("");
-
-  
-
-
 
   const AboutUsEnums = {
     HorizontalGrinding : <HorizontalGrindingMills />,
@@ -45,17 +39,12 @@ const HandleMenuChange = (main) => {
   setMenu(main)
   setSubMenu("")
 }
-const HandleSubMenuChange = (main,sub) => {
-  setMenu(main)
-  setSubMenu(sub)
-
-}
   return (
-    <div className="move-to-australia">
+    <div className="horizontal-grinding-mill">
       <div className="cover-section">
         <div className="container">
           <h2></h2>
-          <EnquiryForm />
+          <EnquiryForm data='HORIZONTALGRINDING' />
           <div className="breadCrumbSection mt-20">Home &gt; Horizontal Grinding Mills</div>
           <div className="AboutUsSection">
             <div className="aboutus-left">

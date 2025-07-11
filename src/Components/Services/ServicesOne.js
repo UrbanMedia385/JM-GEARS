@@ -6,12 +6,12 @@ const ProductsOne = () => {
         <section className="our-service-wrapper section-padding bg-gray">
         <div className="container">
       
-                        <div className="section-title text-center">
+                        <div className="section-title text-center pt-20">
                             <h2>INDUSTRIES </h2>
                             <h4>WE SERVE </h4>
                         </div>
                       
-            <div className="row mtm-30">
+            <div className="row">
                
                 {
                     ProductsOneData.map((data) => (

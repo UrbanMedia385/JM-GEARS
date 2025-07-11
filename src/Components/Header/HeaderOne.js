@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import mainLogo from '../../assets/img/logo.png';
+import mainLogo from '../../assets/img/home3/logo.png';
 import MobileMenu from "./MobileMenu";
 import OffsetMenu from "./OffsetMenu";
 

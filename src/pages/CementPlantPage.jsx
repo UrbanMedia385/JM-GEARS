@@ -37,7 +37,7 @@ const HandleSubMenuChange = (main,sub) => {
           <h2></h2>
           <EnquiryForm />
           <div className="breadCrumbSection mt-20">Home &gt; Integrated Unit</div>
-          <div className="AboutUsSection">
+          <div className="AboutUsSection" >
             <div className="aboutus-left">
               <label style={{fontWeight:"bolder"}}>Cement Complete Integrated Unit</label>
               <ul>

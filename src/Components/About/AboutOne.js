@@ -22,6 +22,8 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
+import "../../assets/css/about.scss";
+import { EnquiryForm } from '../../pages/EnquiryForm';
 const AboutOne = ({pt}) => {
     const drawerBleeding = 0;
 
@@ -146,13 +148,20 @@ const Puller = styled('div')(({ theme }) => ({
     </Card>
     
       </SwipeableDrawer>
-        {data.map((item, index) => (
+      <section className="about-section section-padding" style={{paddingTop:'0px'}}>
+            <div className="about-jm">
+      <div className="cover-section">
+        <div className="container">
+          <h2></h2>
+          <EnquiryForm data='READYPLANTS'/>
+          <div className='about-container'>
+        {data.map((item, index) => ( 
         <section className={pt ? 'about-section section-padding' : 'about-section section-padding pt-0'}>
-            <div className="container">
+            <div className="container ">
                 <div className="row">
                     <div className="col-xl-6 col-lg-5 col-12">
                         <div className="img-block-pop-video">
-                            <img src={imgBlock1} alt="busico"/>
+                            <img src={imgBlock1} alt="jm-gears"/>
                             {/* <div className="popup-video-block d-flex justify-content-center align-items-center bg-cover" style={{backgroundImage: `url(${videoBg})`}}>
                                 <div className="video-play-btn">
                                     <span className="popup-video" onClick={() => setOpen(true)} style={{cursor: 'pointer'}}><i className="fas fa-play"></i></span>                     
@@ -164,7 +173,7 @@ const Puller = styled('div')(({ theme }) => ({
                         <div className="block-contents">
                             <div className="section-title">
                                 <span>{item.made_in}</span>
-                                <h2>{item.product_title}</h2>
+                                <h2 style={{padding:'0px'}}>{item.product_title}</h2>
                             </div>
                             <p>{item.desc}</p>
                         </div>
@@ -220,7 +229,13 @@ const Puller = styled('div')(({ theme }) => ({
                 </div>
             </div>
             <Divider className='mt-2' /></section>))}
+</div>
+        </div>
+        </div>
+        </div>
+        </section>
         </>
+        
     )
 }
 

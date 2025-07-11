@@ -9,7 +9,7 @@ const ReadyPlants = () => {
     return (
         <>
         <HeaderThree/>
-        <PageBanner title='Ready Plants' bannerBg={bannerBg} currentPage='Ready Plants' />
+        {/* <PageBanner title='Ready Plants' bannerBg={bannerBg} currentPage='Ready Plants' /> */}
         <AboutOne pt={true} />
            <FooterThree />
         </>
