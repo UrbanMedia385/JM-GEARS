@@ -5,7 +5,7 @@ const faqOneData = [
     {
         id: uuidv4(),
         ques: 'Decades of Expertise:',
-        ans: 'With a legacy spanning several decades, JM Gears & Engineering has been at the forefront of heavy engineering. Our extensive experience in the industry ensures that we bring unparalleled expertise to every cement plant project.',
+        ans: 'With a legacy spanning several decades,  has been at the forefront of heavy engineering. Our extensive experience in the industry ensures that we bring unparalleled expertise to every cement plant project.',
         index: 'faq1',
     },
 
@@ -19,7 +19,7 @@ const faqOneData = [
     {
         id: uuidv4(),
         ques: 'Diverse Industry Recognition',
-        ans: 'Serving not only the cement industry but also various sectors, JM Gears & Engineering has earned international acclaim for its heavy engineering solutions. Our commitment to quality management has established us as a trusted partner for approximately 500 clients globally.',
+        ans: 'Serving not only the cement industry but also various sectors,  has earned international acclaim for its heavy engineering solutions. Our commitment to quality management has established us as a trusted partner for approximately 500 clients globally.',
         index: 'faq3'
     },
 
