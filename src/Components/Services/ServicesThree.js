@@ -63,6 +63,7 @@ const ProductsThree = () => {
                                             
                             </div>
                             <div className="content">
+                              
                             <h4><Link to={`/ready-plants`}>{data.product_title}</Link></h4>
                             <p>{data.desc}</p>
                             </div>

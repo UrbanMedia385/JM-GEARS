@@ -14,7 +14,7 @@ const ProductsOneData = [
         bg: bg1,
         icon: 'blueprint',
         title: 'Cement Industry',
-        desc: 'JM Gears & Engineering is a key player in the cement sector, offering complete kilns, mill components, girth gears, and pinions.',
+        desc: 'JM Gears and Engineering manufactures high-efficiency cement mills, kiln shells, girth gears, and support rollers that are designed for maximum grinding efficiency, durability, and seamless installation in large cement plant operations.',
     },
 
     {
@@ -22,7 +22,7 @@ const ProductsOneData = [
         bg: bg2,
         icon: 'interior-design',
         title: 'Sugar Industry',
-        desc: 'In the sugar sector, we provide critical components such as gears, pinions, and mill heads. ',
+        desc: 'Our gears, mill heads, and industrial pinions always crush without fault or mechanical failure, increasing throughput and profitability in today sugar processing operations. ',
     },
 
     {
@@ -30,7 +30,7 @@ const ProductsOneData = [
         bg: bg3,
         icon: 'home',
         title: 'Chemical Industry',
-        desc: 'For the chemical industry, We delivers customised heavy engineering solutions. ',
+        desc: 'Engineered corrosion-resistant gears and custom heavy engineering components ensure chemical manufacturers operate safely, stably, and with optimal performance even in the most corrosive process environments.',
     },
 
     {
@@ -38,7 +38,7 @@ const ProductsOneData = [
         bg: bg4,
         icon: 'varnish',
         title: 'Sponge iron Industry',
-        desc: 'We play a vital role in the sponge iron industry by providing robust kiln shells, gears, and rollers.',
+        desc: 'We manufacture kiln shells, gears, and support rollers for sponge iron processing that are built for performance and longevity in line with industrial specifications to minimize or eliminate downtime.',
     },
 
     {
@@ -46,14 +46,14 @@ const ProductsOneData = [
         bg: bg5,
         icon: 'sketch-1',
         title: 'Tyre Industry',
-        desc: 'In the tire industry, we offer specialized components such as gears, pinions, and shafts. ',
+        desc: 'Our specialty gears and mill heads provide high-throughput on precision material handling for tire industry manufacturers, which allows them to maximize automation, process reliability, and overall operational efficiency',
     },
     {
         id: uuidv4(),
         bg: bg6,
         icon: 'sketch-1',
         title: 'Steel Industry',
-        desc: 'JM Gears & Engineering is a trusted partner in the steel sector, providing a range of heavy engineering products. ',
+        desc: 'JM Gear & Engineering provides heavy forged shafts, gearing assemblies, and engineering solutions for manufacturers, with an ongoing reputation for quality and dependability - leading manufacturers have relied upon our products for steel manufacturing.',
     }
     
 ]
