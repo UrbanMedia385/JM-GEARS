@@ -4,7 +4,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import bannerBg from '../../assets/img/pricing-cta-bg.jpg';
-import tabImg1 from '../../assets/img/home1/tab-img.jpg'
+import tabImg1 from '../../assets/img/home1/tab-img.png'
 import JsonData from '../../Constants/ReadyPlants.json'
 import { useMediaQuery } from "@mui/material";
 const ProductsThree = () => {
@@ -57,6 +57,10 @@ const ProductsThree = () => {
 
                             <div className="img-box flex justify-center align-center">
                                             <img src={tabImg1} alt=""/>
+
+                                            
+                                            
+                                            
                             </div>
                             <div className="content">
                             <h4><Link to={`/ready-plants`}>{data.product_title}</Link></h4>
@@ -64,6 +68,8 @@ const ProductsThree = () => {
                             </div>
                         </div>
                         </div>
+
+                        
                     ))}
                     </Slider>
                 </div>

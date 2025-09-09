@@ -3,7 +3,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper";
 import TestimonialTwoData from "./TestimonialTwoData";
-import testiImg  from '../../assets/img/home3/testimonial-img.png';
+import testiImg  from '../../assets/img/home3/testimonial-img.jpg';
 
 const TestimonialTwo = () => {
     return (

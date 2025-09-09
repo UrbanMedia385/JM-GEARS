@@ -25,6 +25,10 @@ import Rotary from './pages/Rotary';
 import HorizontalGrinding, { HorizontalGrindingMills } from './pages/HorizontalGrindingMills';
 import CementSpares from './pages/CementSpares';
 import Crushers from './pages/Crushers';
+import BlogThree from './Components/Blog/BlogThree';
+import BlogFour from './Components/Blog/BlogFour';
+import BlogOne from './Components/Blog/BlogOne';
+import BlogTwo from './Components/Blog/BlogTwo';
 
 
 function App() {
@@ -61,6 +65,7 @@ function App() {
          <Route path="/cement-spares" element={<CementSpares />} />
          <Route path="/crushers" element={<Crushers />} />
         <Route path="/ready-plants" element={<ReadyPlants />} />
+        <Route path="/Blog" element={<BlogTwo />} />
       </Routes>
     </>
     )
