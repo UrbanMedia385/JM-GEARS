@@ -65,7 +65,7 @@ function App() {
          <Route path="/cement-spares" element={<CementSpares />} />
          <Route path="/crushers" element={<Crushers />} />
         <Route path="/ready-plants" element={<ReadyPlants />} />
-        <Route path="/Blog" element={<BlogTwo />} />
+        <Route path="/Blog" element={<BlogOne />} />
       </Routes>
     </>
     )
