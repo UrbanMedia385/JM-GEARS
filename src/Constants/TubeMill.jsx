@@ -3,12 +3,10 @@ export const TubeMill = () => (
   <>
    <h3>Tube Mill</h3>
 <ul>
-    <li>Tube Mills are horizontal rotating cylinders with diverse grinding media, suitable for grinding cement, raw materials, ores, and other substances.</li>
-    <li>They are pivotal in achieving fine particle sizes and homogenous blends.</li>
-    <li>Tube mills use a combination of grinding media such as steel balls, cylpebs, or rods, depending on the application, to achieve the desired grind.</li>
-    <li>Tube mills are widely used in the cement industry for grinding clinker and gypsum to produce cement.</li>
-    <li>They are also utilized in mineral processing plants for grinding ores and in chemical processing for grinding various substances.</li>
-    <li>Tube mills offer efficient grinding with relatively low energy consumption, making them cost-effective solutions for material processing.</li>
+    <li>A tube mill is a large rotating machine used for grinding materials into fine particles. It works like a big spinning drum made up of heavy steel rods. The spinning starts the moment you feed some substance into the mill for grinding.</li>
+    <li>As the process begins, the mill slowly spins, and the heavy steel rods get lifted for grinding. Lastly, the steel rods fall back, hinting at the project, as the smashing stops. Specifically, our tube mills are prominent manufacturing machines, widely used in the cement industry for grinding clinker and gypsum.</li>
+    <li>In this process, tube mills are used as a combination of steel rods and cylpebs, depending on the desired results. These are used to process large amounts of materials, and the desired results must be a fine powder.</li>
+    <li>The Tube Mills are efficient in grinding materials with low energy consumption, making them reliable for heavy metal processing. </li>
 </ul>
   </>
 );

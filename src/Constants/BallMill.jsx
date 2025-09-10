@@ -3,11 +3,11 @@ export const BallMill = () => (
   <>
 <h3>Ball Mill</h3>
 <ul>
-    <li>A Ball Mill is a horizontal rotating cylinder filled with steel or ceramic balls used for grinding various substances.</li>
-    <li>Its rotational motion ensures effective blending and grinding of materials, making it indispensable in  like cement, minerals, and chemical processing.</li>
-    <li>The balls inside the cylinder impact and grind the materials, leading to particle size reduction and homogenization of blends.</li>
-    <li>Ball mills are versatile machines capable of grinding materials of various hardness levels, from soft and brittle materials to hard and abrasive substances.</li>
-    <li>They are widely used in mineral processing, cement production, and pharmaceutical industries, among others.</li>
+    <li>A Ball Mill is a large, cylindrical container rotating around a horizontal axis to grind various substances. It ensures effective blending of materials like cement and chemicals to reduce the particle size.</li>
+    <li>Its primary function is to crush and grind, mixing the particles by breaking them down. The particles are easily broken down into pieces through a combination of impact and attrition. Hence, these machines are versatile as they are capable of grinding hard materials into simplified particles.</li>
+    <li>These machines are widely used in mineral processing, cement production, and other crushing elements across the manufacturing industry. From soft to brittle materials, the ball mill assists manufacturers in constructing hollow particles with steel balls.</li>
+    <li>However, these applications are only for those range of industries that include processing and production. Their usage beyond these industries may create problematic situations for human life.</li>
+    <li>Hence,<strong> <a href="#">JM Gears & Engineering </a></strong> deals in such manufacturing industries for smooth and consistent processing. </li>
 </ul>
   </>
 );

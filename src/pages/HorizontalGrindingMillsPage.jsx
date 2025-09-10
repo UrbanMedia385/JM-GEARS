@@ -46,6 +46,10 @@ const HandleMenuChange = (main) => {
           <h2></h2>
           <EnquiryForm data='HORIZONTALGRINDING' />
           <div className="breadCrumbSection mt-20">Home &gt; Horizontal Grinding Mills</div>
+          <h3>Horizontal Grinding Mills</h3>
+          <p>Horizontal Grinding Mills, or Horizontal Mills, are industrial machines used for grinding and pulverizing heavy materials. These reduce solid materials into finer powder, differentiating them from vertical mills. 
+
+We provide these horizontal grinding mills in six categories: ball mill, ROD mill, Tube mill, SAG mill, Cement mill, and Ore Grinding mill, etc. Through this, our goal is to become the best version of the<strong> horizontal grinding mill manufacturers </strong> in the industry.</p>
           <div className="AboutUsSection">
             <div className="aboutus-left">
               <label style={{fontWeight:"bolder"}}>Horizontal Grinding Mills</label>
