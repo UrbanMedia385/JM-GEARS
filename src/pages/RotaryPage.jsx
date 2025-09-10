@@ -20,6 +20,7 @@ export const RotaryPage = () => {
   const bannerArray = {
     ROTARYKILN: rotaryKlin,
     ROTARYDRYERS: rotaryKlin,
+    business: business,
   };
 const HandleMenuChange = (main) => {
   setMenu(main)
