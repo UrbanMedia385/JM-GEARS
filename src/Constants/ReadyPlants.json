@@ -14,7 +14,7 @@
 
       },
 {
-        "id":3,
+        "id":2,
         "product_title":" VERTICAL ROLLER MILLS",
         "made_in": "FLS, GERMANY",
         "title2": "RAW MILL:- Pfeiferin MAKE GERMANY ",
@@ -26,12 +26,12 @@
 
       },
       {
-        "id":5,
+        "id":3,
         "product_title":" Rotary KILN ACCESSORIES",
         "made_in": "FLS, GERMANY",
         "title2": "BRAND NEW UNUSED ",
         "imgUrl":"../assets/img/BannerImages/Business.jpg",
-        "desc":"CONTAINS:- Shells, Girm Gears, Pinion, Tyres, Supporting Rollers, Base Frames, Gearboxes, Motors, Electric Panels & Electricals and Accessories ",
+        "desc":"The complete set of rotary kiln accessories includes precision-engineered shells, girth gears, pinions, tires, supporting rollers, base frames, gearboxes, motors, electric panels, full electrical systems, and essential auxiliary components, all designed for reliable performance in heavy industrial operations.",
         "specs":[
             "KLIN Tyres (Quantity 3 Nos 5240MM ID & 6240MM)",
             "Duroflex Burner (QTY 2 Nos)",
@@ -47,11 +47,11 @@
 
       },
       {
-        "id":6,
+        "id":4,
         "product_title":"BALL MILL/HORIZONTAL GRINDING MILL",
         "made_in": "DIA:- P 3600 MM X 1450 MM LONG",
         "title2": "BRAND NEW UNUSED ",
-        "imgUrl":"../assets/img/BannerImages/Business.jpg",
+        "imgUrl":"../assets/img/logo.png",
         "desc":"The complete grinding mill package includes the girth gear, mill heads, shell, pinions, bearing housings, chromium limers, and entire base power torsion shaft (with coupling), greatly increasing the durability and reliability in steady performance.",
         "field1":"CAPACITY:- 100 TPH",
         "field2":"CONDITION:- BRAND NEW",

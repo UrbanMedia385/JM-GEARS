@@ -55,7 +55,7 @@ const ProductsThree = () => {
                         <div key={data.id} >
                        <div className="single-products-box sb1" style={!isMobile ? { minHeight: "450px" } : {}}>
 
-                            <div className="img-box flex justify-center align-center">
+                       <div className="img-box flex justify-center align-center">
                                             <img src={tabImg1} alt=""/>
 
                                             
