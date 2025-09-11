@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import React from 'react'
 import CountUp from 'react-countup'; 
-import heroImg from '../../assets/img/home3/hero-big-img.jpg';
+import heroImg from '../../assets/img/home3/hero-big-img.png';
 import img1 from '../../assets/img/home3/3d-element.png';
 import img2 from '../../assets/img/home3/element-wave.png';
 import img3 from '../../assets/img/home3/card.png';
