@@ -39,6 +39,7 @@ import { WobblerShaft } from "../Constants/Miscellaneous/WobblerShaft";
 import { GrindingPathAccessories } from "../Constants/Miscellaneous/GrindingPathAccessories";
 import { StructuralSteel } from "../Constants/Fabrication/StructuralSteel";
 import { Industrial } from "../Constants/Fabrication/Industrial";
+import { Warehouse } from "../Constants/Fabrication/Warehouse";
 export const CementPlantsSpares = () => {
   let [searchParams, setSearchParams] = useSearchParams();
   const [selectedList, setMenu] = React.useState("KILN");
@@ -74,7 +75,8 @@ export const CementPlantsSpares = () => {
     WOBBLERSHAFT : <WobblerShaft />,
     GRINDINGPATH : <GrindingPathAccessories />,
     STRUCTURALSTEEL : <StructuralSteel />,
-    INDUSTRIAL: <Industrial />
+    INDUSTRIAL: <Industrial />,
+    WAREHOUSE: <Warehouse />
 
   };
   const bannerArray = {
@@ -109,6 +111,7 @@ export const CementPlantsSpares = () => {
     GRINDINGPATH : miscellaneous,
     STRUCTURALSTEEL: miscellaneous,
     INDUSTRIAL: miscellaneous,
+    WAREHOUSE: miscellaneous,
   };
 const HandleMenuChange = (main, sub) => {
   setMenu(main)
@@ -415,23 +418,12 @@ const HandleSubMenuChange = (main,sub) => {
                   }`}
                   onClick={() => HandleSubMenuChange("VRMROLLER","PULLRODS")}
                 >
-                  {"Pull Rods"}{" "}
+                  {"Pull Rods / Tie Rods "}{" "}
                   {/* <span className="material-symbols-outlined">expand_more</span> */}
                 </li>:
                 ""
               }
-              {selectedList === "VRMROLLER" || selectedSubList === "TIERODS"?
-                <li
-                  className={`${
-                    selectedSubList === "TIERODS" ? "active" : " "
-                  }`}
-                  onClick={() => HandleSubMenuChange("VRMROLLER","TIERODS")}
-                >
-                  {"Tie Rods"}{" "}
-                  {/* <span className="material-symbols-outlined">expand_more</span> */}
-                </li>:
-                ""
-              }
+             
                {selectedList === "VRMROLLER" || selectedSubList === "ROCKERARMS"?
                 <li
                   className={`${
@@ -439,23 +431,12 @@ const HandleSubMenuChange = (main,sub) => {
                   }`}
                   onClick={() => HandleSubMenuChange("VRMROLLER","ROCKERARMS")}
                 >
-                  {"Rocker Arms"}{" "}
+                  {"Rocker Arms & Rotary Arms"}{" "}
                   {/* <span className="material-symbols-outlined">expand_more</span> */}
                 </li>:
                 ""
               }
-              {selectedList === "VRMROLLER" || selectedSubList === "ROTARYARMS"?
-                <li
-                  className={`${
-                    selectedSubList === "ROTARYARMS" ? "active" : " "
-                  }`}
-                  onClick={() => HandleSubMenuChange("VRMROLLER","ROTARYARMS")}
-                >
-                  {"Rotary Arms"}{" "}
-                  {/* <span className="material-symbols-outlined">expand_more</span> */}
-                </li>:
-                ""
-              }
+             
                {selectedList === "VRMROLLER" || selectedSubList === "ROTARYFEEDERS"?
                 <li
                   className={`${

@@ -1,12 +1,9 @@
 export const VrmRollerHub = () => (
   <>
-   <h3>VRM ROLLER</h3>
+   <h3>VRM Roller Hub/Grinding Roller</h3>
 <ul>
-    <li>The VRM Roller Hub, also known as Grinding Roller, is a pivotal component in Vertical Roller Mills (VRMs).</li>
-    <li>VRMs are advanced grinding mills used in cement and steel production for efficient grinding of raw materials.</li>
-    <li>The roller hub's design facilitates precise grinding, contributing to product quality and process efficiency.</li>
-    <li>Vertical Roller Mills operate by passing materials through a grinding table and rollers, where the material is crushed and ground between the rollers and the table surface.</li>
-    <li>The roller hub plays a crucial role in maintaining stable operation and precise grinding in VRMs, ensuring optimal performance and product quality.</li>
+    <li>The VRM roller hub is the heart of a Vertical Roller Mill. It holds the grinding rollers, which are massive, wheel-shaped components. These rollers rotate and press down on the grinding table with immense force.</li>
+    <li>Their job is to crush and grind large pieces of raw material, such as limestone or cement clinker, into a fine powder. The grinding rollers are made from incredibly tough materials to withstand the extreme pressure and abrasion, making them a key component for the efficiency and output of the mill.</li>
 </ul>
 
   </>
