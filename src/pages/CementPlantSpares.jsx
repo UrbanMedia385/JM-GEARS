@@ -40,6 +40,9 @@ import { GrindingPathAccessories } from "../Constants/Miscellaneous/GrindingPath
 import { StructuralSteel } from "../Constants/Fabrication/StructuralSteel";
 import { Industrial } from "../Constants/Fabrication/Industrial";
 import { Warehouse } from "../Constants/Fabrication/Warehouse";
+import { Storageyards } from "../Constants/Fabrication/Storageyards";
+import { Prefabbuildings } from "../Constants/Fabrication/Prefabbuildings";
+import { TanksVessels } from "../Constants/Fabrication/TanksVessels";
 export const CementPlantsSpares = () => {
   let [searchParams, setSearchParams] = useSearchParams();
   const [selectedList, setMenu] = React.useState("KILN");
@@ -76,7 +79,10 @@ export const CementPlantsSpares = () => {
     GRINDINGPATH : <GrindingPathAccessories />,
     STRUCTURALSTEEL : <StructuralSteel />,
     INDUSTRIAL: <Industrial />,
-    WAREHOUSE: <Warehouse />
+    WAREHOUSE: <Warehouse />,
+    STORAGE: <Storageyards/>,
+    PREFAB: <Prefabbuildings/>,
+    TANKSANDWESSELS: <TanksVessels/>
 
   };
   const bannerArray = {
@@ -112,6 +118,9 @@ export const CementPlantsSpares = () => {
     STRUCTURALSTEEL: miscellaneous,
     INDUSTRIAL: miscellaneous,
     WAREHOUSE: miscellaneous,
+    STORAGE: miscellaneous,
+    PREFAB: miscellaneous,
+    TANKSANDWESSELS: miscellaneous
   };
 const HandleMenuChange = (main, sub) => {
   setMenu(main)
