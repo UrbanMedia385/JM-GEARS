@@ -1,0 +1,217 @@
+#enquiry-form {
+    position: relative;
+    top: 40px;
+}
+
+#enquiry-form form {
+    background: #021622 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+#enquiry-form form .formHeading h3 {
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+        text-wrap: wrap;
+}
+
+#enquiry-form form .formSection {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(18, 1fr);
+    padding: 1rem 0 1rem 0;
+}
+
+#enquiry-form .col-1 {
+    grid-column: span 1;
+}
+
+#enquiry-form .col-2 {
+    grid-column: span 2;
+}
+
+#enquiry-form .col-3 {
+    grid-column: span 3;
+}
+
+#enquiry-form .col-4 {
+    grid-column: span 4;
+}
+
+#enquiry-form .col-5 {
+    grid-column: span 5;
+}
+
+#enquiry-form .col-6 {
+    grid-column: span 6;
+}
+
+#enquiry-form .col-7 {
+    grid-column: span 7;
+}
+
+#enquiry-form .col-8 {
+    grid-column: span 8;
+}
+
+#enquiry-form .col-9 {
+    grid-column: span 9;
+}
+
+#enquiry-form .col-10 {
+    grid-column: span 10;
+}
+
+#enquiry-form .col-11 {
+    grid-column: span 11;
+}
+
+#enquiry-form .col-12 {
+    grid-column: span 12;
+}
+
+#enquiry-form .col-13 {
+    grid-column: span 13;
+}
+
+#enquiry-form .col-14 {
+    grid-column: span 14;
+}
+
+#enquiry-form .col-15 {
+    grid-column: span 15;
+}
+
+#enquiry-form .col-16 {
+    grid-column: span 16;
+}
+
+#enquiry-form .col-17 {
+    grid-column: span 17;
+}
+
+#enquiry-form .col-18 {
+    grid-column: span 18;
+}
+
+#enquiry-form form .formSection .formField {
+    display: inline-block;
+}
+
+#enquiry-form form .formSection .formField .formFields-container {
+    display: flex;
+}
+
+#enquiry-form form .alert {
+    font-size: smaller;
+    padding: 10px 10px 0 10px;
+}
+
+#enquiry-form form .formSection .formField .form-input,
+#enquiry-form form .formSection .formField select {
+    box-sizing: border-box;
+    width: 100%;
+    height: 3em;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding: 0 0.5vw;
+    font-size: normal;
+    background-color: #0D2634;
+    color: #fff;
+}
+
+#enquiry-form form .formSection .formField select {
+    padding-right: 0;
+    border-right: 0.5vw solid transparent
+}
+
+#enquiry-form form .formSection .formField #nameAlias,
+#enquiry-form form .formSection .formField #dial_code {
+    max-width: fit-content;
+    margin-right: 10px;
+}
+
+#enquiry-form form .alert,
+#enquiry-form form .formSection .formField .form-input::placeholder,
+#enquiry-form form .formSection .formField select::placeholder {
+    color: #fff;
+}
+
+#enquiry-form select::-ms-expand {
+    margin-right: 5vw;
+}
+
+#enquiry-form form .submitSection {
+    text-align: center;
+}
+
+#enquiry-form form .submitSection button {
+    border: none;
+    outline: none;
+    background: #FF0000 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: large;
+    letter-spacing: 0px;
+    height: 2.5rem;
+    width: 100%;
+    padding: 0 5rem 0 1rem;
+    cursor: pointer;
+}
+
+#enquiry-form form .general-alert {
+    padding: 0 10px 10px 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    #enquiry-form form .formSection {
+        padding-bottom: 0;
+    }
+    #enquiry-form form .formSection > div[class*="col"] {
+        grid-column: span 9;
+    }
+
+    #enquiry-form form .formSection .col-2 {
+        grid-column: span 18 !important;
+    }
+
+    #enquiry-form form .submitSection button {
+        width: fit-content;
+        padding: 0 2rem;
+    }
+}
+@media screen and (min-width: 769px) {
+.enquiry-form-about{
+    top: 250px !important;
+}
+}
+@media screen and (max-width: 768px) {
+    #enquiry-form {
+        position: relative;
+        top: 0px;
+    }
+    .enquiry-form-about{
+        top: 100px !important;
+    }
+    
+    /* #enquiry-form form .formSection {
+        padding: 10px 0 10px 0;
+    } */
+
+    #enquiry-form form .formSection > div[class*="col"] {
+        grid-column: span 18;
+    }
+}
+.MuiSelect-icon{
+    color: white !important;
+}
+.MuiFormHelperText-root{
+    color: white !important;
+}
+.css-jakll9-MuiButtonBase-root-MuiButton-root{
+    cursor: pointer !important;
+}

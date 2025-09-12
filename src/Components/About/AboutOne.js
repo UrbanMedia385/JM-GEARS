@@ -24,6 +24,19 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import "../../assets/css/about.scss";
 import { EnquiryForm } from '../../pages/EnquiryForm';
+// imports (top of file)
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Autoplay } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+
+
+
+
+
+
 const AboutOne = ({pt}) => {
     const drawerBleeding = 0;
 
@@ -161,7 +174,44 @@ const Puller = styled('div')(({ theme }) => ({
                 <div className="row">
                     <div className="col-xl-6 col-lg-5 col-12">
                         <div className="img-block-pop-video">
-                            <img src={imgBlock1} alt="jm-gears"/>
+
+
+
+                     
+
+{ /* debug: console.log to verify images */ }
+{ console.log('images for', item.product_title, item.images) }
+
+{item.images && item.images.length > 0 ? (
+  <Swiper
+    modules={[Navigation, Pagination, Autoplay]}
+    navigation
+    pagination={{ clickable: true }}
+    spaceBetween={10}
+    slidesPerView={1}
+    loop={item.images.length > 1}                     // loop only if >1 slide
+    autoplay={{ delay: 3000, disableOnInteraction: false }}
+    observer
+    observeParents
+    style={{ borderRadius: '8px', overflow: 'hidden' }}
+  >
+    {item.images.map((img, idx) => (
+      <SwiperSlide key={idx}>
+        <img
+          src={img}
+          alt={`${item.product_title} - ${idx + 1}`}
+          style={{ width: '100%', height: 300, objectFit: 'contain' }}
+        />
+      </SwiperSlide>
+    ))}
+  </Swiper>
+) : (
+  <div>No images</div>
+)}
+
+
+
+
                             {/* <div className="popup-video-block d-flex justify-content-center align-items-center bg-cover" style={{backgroundImage: `url(${videoBg})`}}>
                                 <div className="video-play-btn">
                                     <span className="popup-video" onClick={() => setOpen(true)} style={{cursor: 'pointer'}}><i className="fas fa-play"></i></span>                     
@@ -189,7 +239,8 @@ const Puller = styled('div')(({ theme }) => ({
                                  <div className="tab-pane fade show active" id="pills-technology" role="tabpanel" aria-labelledby="pills-technology-tab">
                                  <div className="tab-inner-contents">
                                      <div className="img-box">
-                                         <img src={tabImg1} alt=""/>
+                                     <img src={item.imgUrl} alt={item.product_title} />
+
                                      </div>
                                      <div className= {isMobile?"checked-features-list": "checked-features-list d-flex"}>
                                      {!item.specs?
