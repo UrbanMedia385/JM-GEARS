@@ -131,7 +131,7 @@ const HeaderThree = () => {
 
                         <li><Link to="/contact">Maintenance & Repairs</Link></li>
                         <li><Link to="/ready-plants">Ready Plants</Link></li>
-                        <li><Link to="/news">Blogs</Link></li>
+                        <li><Link to="/blog">Blogs</Link></li>
   
                        
                     </ul>

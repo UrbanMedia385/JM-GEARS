@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
 import blogOneData from "./BlogOneData";
 
+
+
+
+
+
 const BlogOne = () => {
     return (
         <>
@@ -14,6 +19,24 @@ const BlogOne = () => {
                                 <h2>Latest News</h2>
                             </div>
                         </div>
+                    </div>
+                </div>
+
+                <div className="row">
+                    <div className="col-lg-12 col-12">
+                        <nav className="blog-menu-bar">
+                            <ul className="nav nav-tabs">
+                                <li className="nav-item">
+                                    <Link className="nav-link active" to="#all">All</Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="#technology">Technology</Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="#business">Business</Link>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
 
