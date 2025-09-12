@@ -11,14 +11,24 @@ const Timeline = () => {
                 <div className="col-lg-4  col-md-6 offset-lg-1 pe-lg-0">
                     <div className="timeline-content text-lg-end">
                         <div className="single-timeline-box">
-                            <span>1990 - 1995</span>
-                            <h6>Startup Construction</h6>
-                            <p>JM GEARS also launch exciting events throughout the year. which is why our projects never quite look or feel the same way depends on the design.</p>
+                            <span>1965</span>
+                            {/* <h6>Startup Construction</h6> */}
+                            <p>Founded as a small maintenance shop with a single lathe machine by Jogender Singh Kanda & Sons
+                            .</p>
                         </div>
                         <div className="single-timeline-box">
-                            <span>1990 - 1995</span>
-                            <h6>Construction Setup</h6>
-                            <p>We have intentionally never developed a stylistic formula for our work, which is why our projects never quite look or feel the same.</p>
+                            <span>1975-1985 
+                            </span>
+                            {/* <h6>Construction Setup</h6> */}
+                            <p>During this period, we began with manufacturing precision gears in multiple workshops, particularly catering to the Water Works, Cement, Zinc plant, and the Mining industry. 
+                            </p>
+                        </div>
+                        <div className="single-timeline-box">
+                            <span>1985-1995
+                            </span>
+                            {/* <h6>Construction Setup</h6> */}
+                            <p>Established new factories with advanced machines for cement and zinc plants, supported the growing marble and granite industry, and completed 500+ turnkey projects. 
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -35,14 +45,25 @@ const Timeline = () => {
                 <div className="col-lg-4 col-md-6 ps-lg-0">
                     <div className="timeline-content">
                         <div className="single-timeline-box">
-                            <span>1988 - 2006</span>
-                            <h6>Achieved Milestone</h6>
-                            <p>We have intentionally never developed a stylistic formula for our work, which is why our projects never quite look or feel the same.</p>
+                            <span>1995-2005
+                            </span>
+                            {/* <h6>Achieved Milestone</h6> */}
+                            <p>Over this duration, we moved to a new and spacious workshop, with the latest engineered industrial machines, to upgrade operations in Cement, Tyre, Zinc, and Steel plants. </p>
                         </div>
                         <div className="single-timeline-box">
-                            <span>2010 - 2020</span>
-                            <h6>Mashable Design</h6>
-                            <p>JM GEARS also launch exciting events throughout the year. which is why our projects never quite look or feel the same way depends on the design.</p>
+                            <span>2005-2015
+                            </span>
+                            {/* <h6>Mashable Design</h6> */}
+                            <p>We expanded our factory and added gear manufacturing machines, and now we are one of the largest gear cutting machines in the world.
+                            </p>
+                        </div>
+
+                        <div className="single-timeline-box">
+                            <span>2015-2025
+                            </span>
+                            {/* <h6>Mashable Design</h6> */}
+                            <p>Undertook turnkey/EPC contracts for cement and DRI steel plants, completing multiple cement grinding units, clinker plants, GGBS, and ultrafine GGBS grinding units
+                            </p>
                         </div>
                     </div>
                 </div>

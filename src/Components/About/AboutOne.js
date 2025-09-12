@@ -200,7 +200,7 @@ const Puller = styled('div')(({ theme }) => ({
         <img
           src={img}
           alt={`${item.product_title} - ${idx + 1}`}
-          style={{ width: '100%', height: 300, objectFit: 'contain' }}
+          style={{ width: '100%', height: '100%', objectFit: 'contain' }}
         />
       </SwiperSlide>
     ))}
