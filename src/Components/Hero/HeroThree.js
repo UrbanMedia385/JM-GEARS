@@ -17,14 +17,9 @@ const HeroThree = () => {
                             <div className="hero-image">
                                 <div className="big-img">
                                     <img src={heroImg} alt="" />
-                                    <div className="element">
-                                        <img src={img1} alt="" />
-                                        <img className="only-for-mobile" src={img2} alt="" />
-                                    </div>
+                                   
                                 </div>
-                                <div className="card-img only-for-mobile">
-                                    <img src={img3} alt="" />
-                                </div>
+                              
                             </div>
                         </div>
                         <div className="col-xl-8 pe-lg-0 pt-70">
