@@ -27,10 +27,11 @@ const AboutTwo = () => {
                 <div className="col-xl-6 mt-5 mt-lg-0 col-12">
                     <div className="block-contents">
                         <div className="section-title">
-                            <span>JM GEARS AND ENGINEERING</span>
-                            <h3>A Legacy of Precision Engineering</h3>
+                            <span>JM Gears And Engineering</span>
+                            <h3>Building a Legacy of Precision Engineering</h3>
                         </div>
-                        <blockquote>Founded in 1975, JM Gears & Engineering has been a prominent player in the heavy engineering sector, contributing to the growth and success of industries worldwide. Situated in the enchanting city of Udaipur, Rajasthan, known as the city of lakes, we have emerged as a symbol of precision, reliability, and innovation. Our vision is to deliver high-quality heavy engineering products, JM Gears & Engineering has evolved into a dynamic force in the industry. Our journey has been marked by a relentless commitment to total quality management, allowing us to achieve international recognition and build lasting relationships with approximately 500 clients across India and beyond.</blockquote>
+                        <blockquote>Having laid our first footprints in 1965, we are proud to be a leading heavy-duty industrial gears manufacturer. Our journey began with a small manufacturing shop with one lathe machine, and it has only grown stronger to date. Jogendar Singh Kanda & Sons saw inspiration in building industrial machines, turning every raw material into a finished cement, chemical, sugar, or steel substance with great precision.</blockquote>
+                        <blockquote>With over 60 years of experience in making industrial gears like rotary kilns Horizontal Grinding Mills, Cement Plant Spare Parts, and Crushers, we understand the machine-running challenges in cement, mining, and chemical industries. With our keen attention to detail and quality control processes, our gears are the reason behind productive operations. </blockquote>
                     </div>
                     <Link to="/about" className="theme-btn mt-35">read more</Link>
                 </div>

@@ -14,7 +14,7 @@ const FooterThree = () => {
             </div>
             <div className="col-lg-3 col-md-12 text-center order-1 order-lg-2 col-12">
                 <div className="footer-social">
-                    Developed by Urban Media
+                    Developed by <a href="https://urbanmediaofficial.com/">Urban Media</a>
                     {/* <a href="#"><i className="fab fa-facebook-f" /></a>
                     <a href="#"><i className="fab fa-twitter" /></a>
                     <a href="#"><i className="fab fa-instagram" /></a>

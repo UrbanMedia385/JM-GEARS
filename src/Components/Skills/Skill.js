@@ -1,5 +1,5 @@
 import React from 'react'
-import koppa from '../../assets/img/koppa.png';
+import koppa from '../../assets/img/about us image 2.jpg';
 import CountUp from 'react-countup'; 
 
 
@@ -40,9 +40,9 @@ const Skill = () => {
                     <div className="block-contents">
                         <div className="section-title mb-10">
                             <span>Expertise Areas</span>
-                            <h2>We Increased Our Skills up</h2>
+                            <h3>Driving Innovation, Delivering Results </h3>
                         </div>
-                        <p>It's the greatest tool ever invented to connect and learn and work and play. But most people are stuck with just one overpriced.</p>
+                        <p>With years of experience, we deliver high-quality solutions that power industries and drive progress.</p>
                     </div>
 
                     <div className="skill-wrapper">
