@@ -29,6 +29,8 @@ import BlogThree from './Components/Blog/BlogThree';
 import BlogFour from './Components/Blog/BlogFour';
 import BlogOne from './Components/Blog/BlogOne';
 import BlogTwo from './Components/Blog/BlogTwo';
+import Blog7 from "./pages/Blog7";
+import BlogPage from "./pages/BlogPage";
 
 
 function App() {
@@ -65,7 +67,9 @@ function App() {
          <Route path="/cement-spares" element={<CementSpares />} />
          <Route path="/crushers" element={<Crushers />} />
         <Route path="/ready-plants" element={<ReadyPlants />} />
-        <Route path="/Blog" element={<BlogOne />} />
+        <Route path="/Blog" element={<NewsDetails />} />
+        <Route path="/blog7" element={<Blog7 />} />
+        <Route path="/blog/:id" element={<BlogPage />} />
       </Routes>
     </>
     )
