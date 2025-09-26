@@ -4466,7 +4466,7 @@ header .header-top-bar .top-social-icons a:hover {
 }
 
 .about-cover-bg .our-experience-years .year-outline {
-  background-image: url("../img/outline.jpg");
+  background-color:rgba(121, 121, 121, 0.445);
   background-repeat: no-repeat;
   background-position: center bottom;
   -webkit-text-fill-color: transparent;

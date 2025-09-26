@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import { Routes, Route} from 'react-router-dom';  
 import Preloader from './Components/Preloader';
 import ScrollTopBtn from './Components/ScrollTopBtn';
+import WhatsAppChatBtn from './Components/WhatsAppChatBtn';
 import AboutPage from './pages/AboutPage';
 import ServicePage from './pages/ServicePage';
 import HomeOne from './pages/HomeOne';
@@ -48,6 +49,7 @@ function App() {
     return (
     <>
       <ScrollTopBtn/>
+      <WhatsAppChatBtn/>
       <Routes>
         <Route path="/" element={<HomeThree />} />
         <Route path="/about" element={<AboutPage />} />

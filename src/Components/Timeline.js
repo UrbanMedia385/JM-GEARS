@@ -1,6 +1,7 @@
 import React from 'react'
 import icon1 from '../assets/img/icons/t1.png';
 import icon2 from '../assets/img/icons/t2.png';
+import icon3 from '../assets/img/icons/t2.png';
 
 
 const Timeline = () => {
@@ -39,6 +40,9 @@ const Timeline = () => {
                         </div>
                         <div className="single-icon">
                             <img src={icon2} alt=""/>
+                        </div>
+                        <div className="single-icon">
+                            <img src={icon3} alt=""/>
                         </div>
                     </div>
                 </div>

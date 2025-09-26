@@ -1,0 +1,2 @@
+- [x] Create src/Components/WhatsAppChatBtn.js with floating button, fixed bottom-right, green style, onClick opens WhatsApp with message "how can i help you"
+- [x] Edit src/App.js to import WhatsAppChatBtn and add <WhatsAppChatBtn /> after ScrollTopBtn
