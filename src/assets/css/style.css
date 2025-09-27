@@ -174,7 +174,7 @@ button:focus {
 }
 
 input, textarea, button {
-  border: 0px;
+  border: 2px solid #000000;
 }
 
 .container {

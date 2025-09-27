@@ -1,2 +1,8 @@
-- [x] Create src/Components/WhatsAppChatBtn.js with floating button, fixed bottom-right, green style, onClick opens WhatsApp with message "how can i help you"
-- [x] Edit src/App.js to import WhatsAppChatBtn and add <WhatsAppChatBtn /> after ScrollTopBtn
+- [x] Remove Link import from ContactPageContents.js
+- [x] Add useState import
+- [x] Add state variables for chat bot
+- [x] Define questions array
+- [x] Implement startChat function
+- [x] Implement handleSubmit function
+- [x] Replace live-chat div with chat bot UI
+- [ ] Test the component
