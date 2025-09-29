@@ -1,6 +1,6 @@
 import AboutOne from "../Components/About/AboutOne";
 import BlogOne from "../Components/Blog/BlogOne";
-import BrandCarouselOne from "../Components/Brands/BrandCarouselOne";
+import BrandCarouselOne from "../Components/Brands/BrandCarousel";
 import CtaOne from "../Components/Cta/CtaOne";
 import FaqOne from "../Components/Faq/FaqOne";
 import FeaturesOne from "../Components/Features/FeaturesOne";
